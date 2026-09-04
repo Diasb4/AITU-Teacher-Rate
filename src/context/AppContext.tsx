@@ -59,8 +59,6 @@ interface AppContextType {
 
   // Supabase & Cloud features
   isCloudConnected: boolean;
-  cloudModalOpen: boolean;
-  setCloudModalOpen: (open: boolean) => void;
   suggestModalOpen: boolean;
   setSuggestModalOpen: (open: boolean) => void;
   suggestProfessor: (data: any) => Promise<void>;
@@ -82,7 +80,6 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [sortBy, setSortBy] = useState<SortOption>('rating-desc');
 
   // Modals
-  const [cloudModalOpen, setCloudModalOpen] = useState(false);
   const [suggestModalOpen, setSuggestModalOpen] = useState(false);
 
   // Cloud state
@@ -354,8 +351,6 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
         // Supabase
         isCloudConnected,
-        cloudModalOpen,
-        setCloudModalOpen,
         suggestModalOpen,
         setSuggestModalOpen,
         suggestProfessor,

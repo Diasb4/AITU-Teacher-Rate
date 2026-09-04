@@ -83,6 +83,15 @@ export const clearSupabaseConfig = (): void => {
   clientInstance = null;
 };
 
+// Hidden console helper for maintainers (no UI exposure)
+if (typeof window !== 'undefined') {
+  (window as any).__configureSupabase = (url: string, key: string) => {
+    saveSupabaseConfig(url, key);
+    console.log('✅ Supabase credentials saved. Reloading page...');
+    window.location.reload();
+  };
+}
+
 // Test if credentials and tables are reachable
 export const testSupabaseConnection = async (testUrl?: string, testKey?: string): Promise<{ success: boolean; message: string; count?: number }> => {
   const config = getSupabaseConfig();

@@ -9,7 +9,6 @@ import { CompareView } from './components/compare/CompareView';
 import { FavoritesView } from './components/favorites/FavoritesView';
 import { ProfessorModal } from './components/profile/ProfessorModal';
 import { RateModal } from './components/profile/RateModal';
-import { CloudSyncModal } from './components/common/CloudSyncModal';
 import { SuggestProfessorModal } from './components/common/SuggestProfessorModal';
 import { ToastRegion } from './components/common/ToastRegion';
 
@@ -29,22 +28,14 @@ const MainContent: React.FC = () => {
 
 const AppModals: React.FC = () => {
   const { 
-    cloudModalOpen, 
-    setCloudModalOpen, 
     suggestModalOpen, 
-    setSuggestModalOpen,
-    refreshCloudData
+    setSuggestModalOpen
   } = useApp();
 
   return (
     <>
       <ProfessorModal />
       <RateModal />
-      <CloudSyncModal 
-        isOpen={cloudModalOpen} 
-        onClose={() => setCloudModalOpen(false)} 
-        onConfigUpdated={refreshCloudData}
-      />
       <SuggestProfessorModal 
         isOpen={suggestModalOpen} 
         onClose={() => setSuggestModalOpen(false)} 

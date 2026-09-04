@@ -12,7 +12,6 @@ import {
   Menu, 
   X,
   GraduationCap,
-  Cloud,
   UserPlus
 } from 'lucide-react';
 
@@ -25,8 +24,6 @@ export const Header: React.FC = () => {
     compareIds, 
     favorites,
     professors,
-    isCloudConnected,
-    setCloudModalOpen,
     setSuggestModalOpen
   } = useApp();
 
@@ -102,27 +99,6 @@ export const Header: React.FC = () => {
         {/* Right Actions */}
         <div className="flex items-center gap-1.5 sm:gap-2">
           
-          {/* Cloud Supabase Sync Button */}
-          <button
-            onClick={() => setCloudModalOpen(true)}
-            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
-              isCloudConnected
-                ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-300 dark:border-emerald-800'
-                : 'bg-amber-50 hover:bg-amber-100 text-amber-700 border-amber-200 dark:bg-amber-950/40 dark:text-amber-300 dark:border-amber-800'
-            }`}
-            title="Настройка бесплатного тарифа Supabase"
-          >
-            <span className="relative flex h-2 w-2">
-              {isCloudConnected && (
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              )}
-              <span className={`relative inline-flex rounded-full h-2 w-2 ${isCloudConnected ? 'bg-emerald-500' : 'bg-amber-500'}`}></span>
-            </span>
-            <Cloud className="w-3.5 h-3.5" />
-            <span className="hidden md:inline">
-              {isCloudConnected ? 'Supabase Free' : 'Облако'}
-            </span>
-          </button>
 
           {/* Add Professor button */}
           <button
@@ -187,26 +163,16 @@ export const Header: React.FC = () => {
             );
           })}
 
-          <div className="pt-2 border-t border-slate-100 dark:border-slate-800 flex gap-2">
+          <div className="pt-2 border-t border-slate-100 dark:border-slate-800">
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
                 setSuggestModalOpen(true);
               }}
-              className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-bold text-slate-800 dark:text-slate-200"
+              className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-bold text-slate-800 dark:text-slate-200"
             >
               <UserPlus className="w-3.5 h-3.5 text-rose-500" />
-              <span>+ Преподаватель</span>
-            </button>
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                setCloudModalOpen(true);
-              }}
-              className="flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-xs font-bold text-emerald-700 dark:text-emerald-300"
-            >
-              <Cloud className="w-3.5 h-3.5" />
-              <span>Supabase Free</span>
+              <span>+ Предложить преподавателя</span>
             </button>
           </div>
         </div>
