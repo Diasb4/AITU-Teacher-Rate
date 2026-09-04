@@ -9,6 +9,8 @@ import { CompareView } from './components/compare/CompareView';
 import { FavoritesView } from './components/favorites/FavoritesView';
 import { ProfessorModal } from './components/profile/ProfessorModal';
 import { RateModal } from './components/profile/RateModal';
+import { CloudSyncModal } from './components/common/CloudSyncModal';
+import { SuggestProfessorModal } from './components/common/SuggestProfessorModal';
 import { ToastRegion } from './components/common/ToastRegion';
 
 const MainContent: React.FC = () => {
@@ -25,6 +27,33 @@ const MainContent: React.FC = () => {
   );
 };
 
+const AppModals: React.FC = () => {
+  const { 
+    cloudModalOpen, 
+    setCloudModalOpen, 
+    suggestModalOpen, 
+    setSuggestModalOpen,
+    refreshCloudData
+  } = useApp();
+
+  return (
+    <>
+      <ProfessorModal />
+      <RateModal />
+      <CloudSyncModal 
+        isOpen={cloudModalOpen} 
+        onClose={() => setCloudModalOpen(false)} 
+        onConfigUpdated={refreshCloudData}
+      />
+      <SuggestProfessorModal 
+        isOpen={suggestModalOpen} 
+        onClose={() => setSuggestModalOpen(false)} 
+      />
+      <ToastRegion />
+    </>
+  );
+};
+
 export const App: React.FC = () => {
   return (
     <AppProvider>
@@ -32,11 +61,7 @@ export const App: React.FC = () => {
         <Header />
         <MainContent />
         <Footer />
-
-        {/* Global Modals & Notifications */}
-        <ProfessorModal />
-        <RateModal />
-        <ToastRegion />
+        <AppModals />
       </div>
     </AppProvider>
   );

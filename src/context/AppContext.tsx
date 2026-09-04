@@ -1,6 +1,14 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, useCallback, useRef } from 'react';
 import { DisciplineInfo, ProfessorRating, Review, SortOption, TagMeta } from '../types';
 import { storage } from '../services/storage';
+import { 
+  getSupabaseConfig, 
+  fetchRemoteReviews, 
+  insertRemoteReview, 
+  subscribeToReviews, 
+  fetchSuggestedProfessors, 
+  insertSuggestedProfessor 
+} from '../services/supabase';
 import disciplinesData from '../data/disciplines.json';
 import tagsData from '../data/tags.json';
 
@@ -47,7 +55,16 @@ interface AppContextType {
   rateProfessorModal: ProfessorRating | null;
   setRateProfessorModal: (p: ProfessorRating | null) => void;
 
-  submitReview: (professorId: string, reviewData: Omit<Review, 'id' | 'date' | 'likes'>) => void;
+  submitReview: (professorId: string, reviewData: Omit<Review, 'id' | 'date' | 'likes'>) => Promise<void>;
+
+  // Supabase & Cloud features
+  isCloudConnected: boolean;
+  cloudModalOpen: boolean;
+  setCloudModalOpen: (open: boolean) => void;
+  suggestModalOpen: boolean;
+  setSuggestModalOpen: (open: boolean) => void;
+  suggestProfessor: (data: any) => Promise<void>;
+  refreshCloudData: () => Promise<void>;
 
   toasts: Toast[];
   addToast: (message: string, type?: Toast['type']) => void;
@@ -63,6 +80,18 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [selectedDiscipline, setSelectedDiscipline] = useState('ALL');
   const [minRating, setMinRating] = useState(0);
   const [sortBy, setSortBy] = useState<SortOption>('rating-desc');
+
+  // Modals
+  const [cloudModalOpen, setCloudModalOpen] = useState(false);
+  const [suggestModalOpen, setSuggestModalOpen] = useState(false);
+
+  // Cloud state
+  const [isCloudConnected, setIsCloudConnected] = useState<boolean>(() => {
+    return getSupabaseConfig().isConfigured;
+  });
+
+  const remoteReviewsCache = useRef<Record<string, Review[]>>({});
+  const remoteSuggestedCache = useRef<any[]>([]);
 
   // Theme
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
@@ -82,29 +111,105 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   };
 
   // State
-  const [professors, setProfessors] = useState<ProfessorRating[]>(storage.getProfessors());
+  const [professors, setProfessors] = useState<ProfessorRating[]>(() => storage.getProfessors());
   const disciplines: DisciplineInfo[] = disciplinesData as DisciplineInfo[];
   const tagsMeta: Record<string, TagMeta> = tagsData as Record<string, TagMeta>;
 
-  const [favorites, setFavorites] = useState<string[]>(storage.getFavorites());
-  const [compareIds, setCompareIds] = useState<string[]>(storage.getCompareList());
+  const [favorites, setFavorites] = useState<string[]>(() => storage.getFavorites());
+  const [compareIds, setCompareIds] = useState<string[]>(() => storage.getCompareList());
 
   const [activeProfessorModal, setActiveProfessorModal] = useState<ProfessorRating | null>(null);
   const [rateProfessorModal, setRateProfessorModal] = useState<ProfessorRating | null>(null);
 
   const [toasts, setToasts] = useState<Toast[]>([]);
 
-  const addToast = (message: string, type: Toast['type'] = 'info') => {
+  const addToast = useCallback((message: string, type: Toast['type'] = 'info') => {
     const id = 'toast-' + Math.random().toString(36).substring(2, 9);
     setToasts(prev => [...prev, { id, type, message }]);
     setTimeout(() => {
       setToasts(prev => prev.filter(t => t.id !== id));
-    }, 4000);
-  };
+    }, 4500);
+  }, []);
 
   const removeToast = (id: string) => {
     setToasts(prev => prev.filter(t => t.id !== id));
   };
+
+  // Synchronize remote Supabase reviews and suggested teachers
+  const refreshCloudData = useCallback(async () => {
+    const conf = getSupabaseConfig();
+    setIsCloudConnected(conf.isConfigured);
+
+    if (!conf.isConfigured) {
+      // Local only
+      setProfessors(storage.getProfessors({}, []));
+      return;
+    }
+
+    try {
+      const [reviews, suggested] = await Promise.all([
+        fetchRemoteReviews(),
+        fetchSuggestedProfessors()
+      ]);
+
+      remoteReviewsCache.current = reviews;
+      remoteSuggestedCache.current = suggested;
+
+      const merged = storage.getProfessors(reviews, suggested);
+      setProfessors(merged);
+
+      // Update currently open modal if any
+      setActiveProfessorModal(curr => {
+        if (!curr) return null;
+        return merged.find(p => p.id === curr.id) || curr;
+      });
+    } catch (err) {
+      console.warn('Failed to load remote Supabase data:', err);
+    }
+  }, []);
+
+  // Initial fetch and Realtime subscription
+  useEffect(() => {
+    refreshCloudData();
+
+    const conf = getSupabaseConfig();
+    if (conf.isConfigured) {
+      const unsubscribe = subscribeToReviews((profId, newReview) => {
+        // Handle incoming real-time review
+        if (!remoteReviewsCache.current[profId]) {
+          remoteReviewsCache.current[profId] = [];
+        }
+        
+        // Avoid duplicate
+        if (!remoteReviewsCache.current[profId].some(r => r.id === newReview.id)) {
+          remoteReviewsCache.current[profId] = [newReview, ...remoteReviewsCache.current[profId]];
+          
+          const recomputed = storage.getProfessors(
+            remoteReviewsCache.current,
+            remoteSuggestedCache.current
+          );
+          setProfessors(recomputed);
+
+          const profObj = recomputed.find(p => p.id === profId);
+          const profName = profObj?.name || 'Преподавателю';
+
+          addToast(`⚡ Новый отзыв в реальном времени: ${profName} (${newReview.rating}★)`, 'info');
+
+          // If looking at this professor right now, update
+          setActiveProfessorModal(curr => {
+            if (curr && curr.id === profId) {
+              return recomputed.find(p => p.id === profId) || curr;
+            }
+            return curr;
+          });
+        }
+      });
+
+      return () => {
+        unsubscribe();
+      };
+    }
+  }, [refreshCloudData, addToast]);
 
   const toggleFavorite = (id: string) => {
     const updated = storage.toggleFavorite(id);
@@ -138,7 +243,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     addToast('Список сравнения очищен', 'info');
   };
 
-  const submitReview = (professorId: string, reviewData: Omit<Review, 'id' | 'date' | 'likes'>) => {
+  const submitReview = async (professorId: string, reviewData: Omit<Review, 'id' | 'date' | 'likes'>) => {
     const newReview: Review = {
       ...reviewData,
       id: 'rev-' + Date.now(),
@@ -146,17 +251,67 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       likes: 1
     };
 
+    // 1. Always save locally immediately for instant feedback
     storage.addReview(professorId, newReview);
-    const reloaded = storage.getProfessors();
+
+    // 2. If Supabase configured, upload to Supabase free tier
+    const conf = getSupabaseConfig();
+    let cloudSynced = false;
+    if (conf.isConfigured) {
+      const res = await insertRemoteReview(professorId, newReview);
+      if (res.success) {
+        cloudSynced = true;
+        // Also update local cache
+        if (!remoteReviewsCache.current[professorId]) {
+          remoteReviewsCache.current[professorId] = [];
+        }
+        remoteReviewsCache.current[professorId] = [newReview, ...remoteReviewsCache.current[professorId]];
+      }
+    }
+
+    // 3. Reload professors list
+    const reloaded = storage.getProfessors(
+      remoteReviewsCache.current,
+      remoteSuggestedCache.current
+    );
     setProfessors(reloaded);
 
-    // Update open modal if looking at this professor
+    // 4. Update open modal if looking at this professor
     if (activeProfessorModal && activeProfessorModal.id === professorId) {
       const updatedProf = reloaded.find(p => p.id === professorId);
       if (updatedProf) setActiveProfessorModal(updatedProf);
     }
 
-    addToast('Спасибо! Ваш отзыв успешно опубликован и сохранен.', 'success');
+    if (cloudSynced) {
+      addToast('Ваш отзыв сохранен в облаке Supabase и виден всем студентам!', 'success');
+    } else {
+      addToast('Отзыв успешно сохранен локально (для общей синхронизации подключите Supabase)', 'success');
+    }
+  };
+
+  const suggestProfessor = async (profData: any) => {
+    const newId = 'prof-sugg-' + Date.now();
+    const profObj = {
+      id: newId,
+      ...profData
+    };
+
+    // Save locally
+    storage.addSuggestedProfessor(profObj);
+
+    // Try upload to Supabase if configured
+    const conf = getSupabaseConfig();
+    if (conf.isConfigured) {
+      await insertSuggestedProfessor(profObj);
+      remoteSuggestedCache.current = [profObj, ...remoteSuggestedCache.current];
+    }
+
+    const reloaded = storage.getProfessors(
+      remoteReviewsCache.current,
+      remoteSuggestedCache.current
+    );
+    setProfessors(reloaded);
+    addToast(`Преподаватель "${profData.name}" успешно добавлен в каталог!`, 'success');
   };
 
   return (
@@ -196,6 +351,15 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setRateProfessorModal,
 
         submitReview,
+
+        // Supabase
+        isCloudConnected,
+        cloudModalOpen,
+        setCloudModalOpen,
+        suggestModalOpen,
+        setSuggestModalOpen,
+        suggestProfessor,
+        refreshCloudData,
 
         toasts,
         addToast,
