@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.dirname(__dirname);
+
+const devHtml = `<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -10,12 +17,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-C_VOHxYL.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/icons-DacXa09s.js">
-    <link rel="modulepreload" crossorigin href="./assets/vendor-tfZM8HQt.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BHcgabdr.css">
   </head>
   <body class="bg-slate-50 text-slate-900 dark:bg-[#0B0F17] dark:text-slate-100 antialiased min-h-screen selection:bg-rose-500 selection:text-white">
     <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+`;
+
+fs.writeFileSync(path.join(rootDir, 'index.html'), devHtml, 'utf-8');
+console.log('[PREBUILD] Prepared source index.html for Vite');
