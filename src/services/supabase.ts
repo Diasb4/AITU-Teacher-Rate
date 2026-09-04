@@ -24,7 +24,10 @@ const safeStorage = {
   }
 };
 
-// Check if credentials are in env or localStorage
+const DEFAULT_SUPABASE_URL = 'https://eexyrygatojgxmwhfgka.supabase.co';
+const DEFAULT_SUPABASE_KEY = 'sb_publishable_lW13Ralei8f_iIQs2FRdzA_CDwYz5eN';
+
+// Check if credentials are in env, localStorage or default constants
 export const getSupabaseConfig = () => {
   const envUrl = (import.meta as any).env?.VITE_SUPABASE_URL || '';
   const envKey = (import.meta as any).env?.VITE_SUPABASE_ANON_KEY || '';
@@ -32,12 +35,12 @@ export const getSupabaseConfig = () => {
   const localUrl = safeStorage.getItem(STORAGE_KEYS.SUPABASE_URL) || '';
   const localKey = safeStorage.getItem(STORAGE_KEYS.SUPABASE_KEY) || '';
 
-  const url = (localUrl || envUrl).trim();
-  const key = (localKey || envKey).trim();
+  const url = (localUrl || envUrl || DEFAULT_SUPABASE_URL).trim();
+  const key = (localKey || envKey || DEFAULT_SUPABASE_KEY).trim();
 
   const isConfigured = Boolean(url && key && url.startsWith('http'));
 
-  return { url, key, isConfigured, isFromEnv: Boolean(!localUrl && envUrl) };
+  return { url, key, isConfigured, isFromEnv: Boolean(!localUrl && (envUrl || DEFAULT_SUPABASE_URL)) };
 };
 
 let clientInstance: SupabaseClient | null = null;
@@ -95,8 +98,8 @@ if (typeof window !== 'undefined') {
 // Test if credentials and tables are reachable
 export const testSupabaseConnection = async (testUrl?: string, testKey?: string): Promise<{ success: boolean; message: string; count?: number }> => {
   const config = getSupabaseConfig();
-  const targetUrl = (testUrl || config.url).trim();
-  const targetKey = (testKey || config.key).trim();
+  const targetUrl = (testUrl !== undefined ? testUrl : config.url).trim();
+  const targetKey = (testKey !== undefined ? testKey : config.key).trim();
 
   if (!targetUrl || !targetKey) {
     return { success: false, message: 'URL или Anon Key не указаны' };

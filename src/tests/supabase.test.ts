@@ -13,17 +13,19 @@ describe('Supabase Free Tier Integration', () => {
     clearSupabaseConfig();
   });
 
-  it('correctly manages Supabase configuration in localStorage', () => {
-    expect(getSupabaseConfig().isConfigured).toBe(false);
+  it('has production Supabase configured by default and allows overrides', () => {
+    const defaultConf = getSupabaseConfig();
+    expect(defaultConf.isConfigured).toBe(true);
+    expect(defaultConf.url).toContain('eexyrygatojgxmwhfgka.supabase.co');
 
     saveSupabaseConfig('https://testproject.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.dummykey');
-    const conf = getSupabaseConfig();
-    expect(conf.isConfigured).toBe(true);
-    expect(conf.url).toBe('https://testproject.supabase.co');
-    expect(conf.key).toContain('eyJhbGciOiJIUzI1Ni');
+    const customConf = getSupabaseConfig();
+    expect(customConf.url).toBe('https://testproject.supabase.co');
+    expect(customConf.key).toContain('eyJhbGciOiJIUzI1Ni');
 
     clearSupabaseConfig();
-    expect(getSupabaseConfig().isConfigured).toBe(false);
+    const resetConf = getSupabaseConfig();
+    expect(resetConf.url).toContain('eexyrygatojgxmwhfgka.supabase.co');
   });
 
   it('fails safely when checking connection without keys', async () => {
