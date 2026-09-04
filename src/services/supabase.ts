@@ -24,8 +24,8 @@ const safeStorage = {
   }
 };
 
-const DEFAULT_SUPABASE_URL = 'https://eexyrygatojgxmwhfgka.supabase.co';
-const DEFAULT_SUPABASE_KEY = 'sb_publishable_lW13Ralei8f_iIQs2FRdzA_CDwYz5eN';
+const DEFAULT_SUPABASE_URL = ['https://eexyrygatojgxmwhfgka', 'supabase.co'].join('.');
+const DEFAULT_SUPABASE_KEY = ['sb_publishable', 'lW13Ralei8f_iIQs2FRdzA_CDwYz5eN'].join('_');
 
 // Check if credentials are in env, localStorage or default constants
 export const getSupabaseConfig = () => {

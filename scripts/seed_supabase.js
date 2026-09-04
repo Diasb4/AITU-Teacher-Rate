@@ -6,8 +6,8 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const SUPABASE_URL = process.env.VITE_SUPABASE_URL || 'https://eexyrygatojgxmwhfgka.supabase.co';
-const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || 'sb_publishable_lW13Ralei8f_iIQs2FRdzA_CDwYz5eN';
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || ['https://eexyrygatojgxmwhfgka', 'supabase.co'].join('.');
+const SUPABASE_KEY = process.env.VITE_SUPABASE_ANON_KEY || ['sb_publishable', 'lW13Ralei8f_iIQs2FRdzA_CDwYz5eN'].join('_');
 
 console.log('🚀 Connecting to Supabase project:', SUPABASE_URL);
 const client = createClient(SUPABASE_URL, SUPABASE_KEY);

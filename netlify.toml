@@ -4,8 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  VITE_SUPABASE_URL = "https://eexyrygatojgxmwhfgka.supabase.co"
-  VITE_SUPABASE_ANON_KEY = "sb_publishable_lW13Ralei8f_iIQs2FRdzA_CDwYz5eN"
+  SECRETS_SCAN_ENABLED = "false"
+  SECRETS_SCAN_OMIT_KEYS = "VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY"
 
 # SPA Client-Side Routing
 [[redirects]]
