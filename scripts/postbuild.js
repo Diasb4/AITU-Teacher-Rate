@@ -26,6 +26,11 @@ fs.writeFileSync(path.join(distDir, '.nojekyll'), '');
 fs.writeFileSync(path.join(rootDir, '.nojekyll'), '');
 console.log('[POSTBUILD] Created .nojekyll');
 
+// 1.1 Create _redirects for Netlify SPA routing
+fs.writeFileSync(path.join(distDir, '_redirects'), '/*    /index.html   200\n');
+fs.writeFileSync(path.join(rootDir, '_redirects'), '/*    /index.html   200\n');
+console.log('[POSTBUILD] Created _redirects for Netlify');
+
 // 2. Copy dist/index.html to root 404.html and dist/404.html (for client-side routing fallback)
 const builtHtml = fs.readFileSync(path.join(distDir, 'index.html'), 'utf-8');
 fs.writeFileSync(path.join(distDir, '404.html'), builtHtml, 'utf-8');
