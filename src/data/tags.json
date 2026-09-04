@@ -1,0 +1,77 @@
+{
+  "Best teacher": {
+    "category": "positive",
+    "emoji": "🏆",
+    "desc": "Один из лучших преподавателей университета"
+  },
+  "Chill vibes": {
+    "category": "positive",
+    "emoji": "😎",
+    "desc": "Комфортная атмосфера на парах и спокойное общение"
+  },
+  "Favourite teacher": {
+    "category": "positive",
+    "emoji": "❤️",
+    "desc": "Любимец студентов потока"
+  },
+  "+swag +rep": {
+    "category": "positive",
+    "emoji": "🔥",
+    "desc": "Максимальное уважение и авторитет"
+  },
+  "Fair game": {
+    "category": "positive",
+    "emoji": "⚖️",
+    "desc": "Честное и прозрачное оценивание"
+  },
+  "Tough but fair": {
+    "category": "neutral",
+    "emoji": "🧐",
+    "desc": "Требовательный, но ставит справедливые баллы"
+  },
+  "Respect is key": {
+    "category": "neutral",
+    "emoji": "🤝",
+    "desc": "Ценит уважение и культуру общения"
+  },
+  "Attendance is key": {
+    "category": "neutral",
+    "emoji": "📌",
+    "desc": "Очень важна посещаемость занятий"
+  },
+  "AI Strict": {
+    "category": "warning",
+    "emoji": "🤖",
+    "desc": "Жестко проверяет работы на использование AI/ChatGPT"
+  },
+  "Hard grader": {
+    "category": "warning",
+    "emoji": "✍️",
+    "desc": "Придирчиво проверяет домашние задания и рубежки"
+  },
+  "Psychological Horror": {
+    "category": "danger",
+    "emoji": "😱",
+    "desc": "Сложнейший курс, готовьтесь не спать ночами"
+  },
+  "Pray for your Scholorship": {
+    "category": "danger",
+    "emoji": "🙏",
+    "desc": "Высокий риск потерять стипендию на рубежке"
+  },
+  "You are cooked lil bro": {
+    "category": "danger",
+    "emoji": "💀",
+    "desc": "Без упорного труда сдать практически невозможно"
+  },
+  "Retake": {
+    "category": "danger",
+    "emoji": "⚠️",
+    "desc": "Многие студенты уходят на повторный курс (ретейк)"
+  },
+  "cringe": {
+    "category": "warning",
+    "emoji": "😬",
+    "desc": "Специфическая подача материала"
+  }
+}

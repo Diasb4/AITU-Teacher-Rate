@@ -1,0 +1,3001 @@
+[
+  {
+    "name": "Foreign Language 2",
+    "professorsCount": 33,
+    "professorIds": [
+      "d583afe3-4016-46e6-84b0-14121b4071bd",
+      "5cbec691-67fd-43e9-8431-cbf8b3cfa404",
+      "c4f7dadf-511e-46c5-938d-7311737c6d9b",
+      "49e92d25-bb0e-421c-b526-3dae635559cd",
+      "e3be06a4-4d09-41b3-9dd2-915d1462599d",
+      "34b557af-7a29-4ce7-897a-662820dccc0a",
+      "09e56265-ca91-4bfe-9255-9308643a8f0b",
+      "44d1d3ae-976e-4af7-9fec-72ea34349b09",
+      "23c72e85-ac7d-4b0b-ba9f-418383e56c11",
+      "aeae7505-f697-4108-a046-c1114361d0e8",
+      "307618c4-6cf4-419a-bc6e-3dd228fd4efa",
+      "3f409456-df4d-4e19-bfcf-d3645f5bf700",
+      "eeb1b98c-0c06-483d-b0ec-f155b98cd9a4",
+      "7e854eed-c2d1-4970-a9fc-cdb7fe870120",
+      "82e2a09c-58e9-4b61-8509-40f6f324cbe5",
+      "980092bd-2a97-4837-b13c-de67240b349f",
+      "b2704e34-35ff-439c-a1ed-b5c3d8f76df5",
+      "c72e7740-c667-41e6-ab25-9651790470f3",
+      "e0e5c52b-1236-491c-b765-7a4a8c21b47f",
+      "37e857f0-6d20-49ad-871f-f3cb88bfcb42",
+      "c5afb381-8c40-44ec-a81b-b20df1861808",
+      "2e5d578b-5d66-4f23-bc3d-750aefd6c128",
+      "a3d21423-b400-4ad7-a742-fb94434de64d",
+      "b15d542d-2fda-4dad-a48e-7861dc7ab3b2",
+      "aa57a00b-76fb-47a6-ae79-55ff64460385",
+      "cd8ffc54-618f-4a9e-81db-3ed03533ab9e",
+      "c4c19ab1-3ce1-4279-b59f-cfae1345dade",
+      "3285a63d-7dc5-4092-b789-49a948addbcd",
+      "28506724-b7de-42a1-a265-a0a9769530de",
+      "c8e83dfe-24f1-4449-a444-b9d90f875d64",
+      "prof-0494",
+      "prof-0499",
+      "prof-0539"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Academic Writing",
+    "professorsCount": 33,
+    "professorIds": [
+      "d583afe3-4016-46e6-84b0-14121b4071bd",
+      "5cbec691-67fd-43e9-8431-cbf8b3cfa404",
+      "c4f7dadf-511e-46c5-938d-7311737c6d9b",
+      "02aef528-0a8a-4233-a070-9731c9f4542d",
+      "1c7e12ac-4848-40c7-bc95-e6c097f72240",
+      "e3be06a4-4d09-41b3-9dd2-915d1462599d",
+      "34b557af-7a29-4ce7-897a-662820dccc0a",
+      "09e56265-ca91-4bfe-9255-9308643a8f0b",
+      "44d1d3ae-976e-4af7-9fec-72ea34349b09",
+      "23c72e85-ac7d-4b0b-ba9f-418383e56c11",
+      "aeae7505-f697-4108-a046-c1114361d0e8",
+      "307618c4-6cf4-419a-bc6e-3dd228fd4efa",
+      "3f409456-df4d-4e19-bfcf-d3645f5bf700",
+      "7e854eed-c2d1-4970-a9fc-cdb7fe870120",
+      "82e2a09c-58e9-4b61-8509-40f6f324cbe5",
+      "980092bd-2a97-4837-b13c-de67240b349f",
+      "b2704e34-35ff-439c-a1ed-b5c3d8f76df5",
+      "c72e7740-c667-41e6-ab25-9651790470f3",
+      "e0e5c52b-1236-491c-b765-7a4a8c21b47f",
+      "37e857f0-6d20-49ad-871f-f3cb88bfcb42",
+      "c5afb381-8c40-44ec-a81b-b20df1861808",
+      "2e5d578b-5d66-4f23-bc3d-750aefd6c128",
+      "a3d21423-b400-4ad7-a742-fb94434de64d",
+      "b15d542d-2fda-4dad-a48e-7861dc7ab3b2",
+      "aa57a00b-76fb-47a6-ae79-55ff64460385",
+      "cd8ffc54-618f-4a9e-81db-3ed03533ab9e",
+      "c4c19ab1-3ce1-4279-b59f-cfae1345dade",
+      "3285a63d-7dc5-4092-b789-49a948addbcd",
+      "28506724-b7de-42a1-a265-a0a9769530de",
+      "c8e83dfe-24f1-4449-a444-b9d90f875d64",
+      "prof-0494",
+      "prof-0499",
+      "prof-0539"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 1",
+    "professorsCount": 33,
+    "professorIds": [
+      "d583afe3-4016-46e6-84b0-14121b4071bd",
+      "5cbec691-67fd-43e9-8431-cbf8b3cfa404",
+      "c4f7dadf-511e-46c5-938d-7311737c6d9b",
+      "49e92d25-bb0e-421c-b526-3dae635559cd",
+      "1c7e12ac-4848-40c7-bc95-e6c097f72240",
+      "e3be06a4-4d09-41b3-9dd2-915d1462599d",
+      "34b557af-7a29-4ce7-897a-662820dccc0a",
+      "23c72e85-ac7d-4b0b-ba9f-418383e56c11",
+      "aeae7505-f697-4108-a046-c1114361d0e8",
+      "3f409456-df4d-4e19-bfcf-d3645f5bf700",
+      "eeb1b98c-0c06-483d-b0ec-f155b98cd9a4",
+      "7e854eed-c2d1-4970-a9fc-cdb7fe870120",
+      "82e2a09c-58e9-4b61-8509-40f6f324cbe5",
+      "980092bd-2a97-4837-b13c-de67240b349f",
+      "b2704e34-35ff-439c-a1ed-b5c3d8f76df5",
+      "c72e7740-c667-41e6-ab25-9651790470f3",
+      "f30782ff-ae0d-4214-b093-a946ac850586",
+      "37e857f0-6d20-49ad-871f-f3cb88bfcb42",
+      "c5afb381-8c40-44ec-a81b-b20df1861808",
+      "2e5d578b-5d66-4f23-bc3d-750aefd6c128",
+      "a3d21423-b400-4ad7-a742-fb94434de64d",
+      "b15d542d-2fda-4dad-a48e-7861dc7ab3b2",
+      "cd8ffc54-618f-4a9e-81db-3ed03533ab9e",
+      "c4c19ab1-3ce1-4279-b59f-cfae1345dade",
+      "3285a63d-7dc5-4092-b789-49a948addbcd",
+      "28506724-b7de-42a1-a265-a0a9769530de",
+      "c8e83dfe-24f1-4449-a444-b9d90f875d64",
+      "prof-0494",
+      "prof-0499",
+      "prof-0525",
+      "prof-0527",
+      "prof-0528",
+      "prof-0529"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Calculus 2",
+    "professorsCount": 23,
+    "professorIds": [
+      "0ac7c0ee-851e-44fb-9db1-96ecbbf4f99f",
+      "419cb81a-b306-4005-adbc-92d59a199968",
+      "de0a0adc-81a4-491b-8cf2-985079583007",
+      "8c7425bb-2629-489b-9920-b74b4c6f01ef",
+      "05f47f39-118a-47b6-9106-fb202dc16c5d",
+      "5bea33b2-93c6-4810-b372-91b8bde6b340",
+      "51e87cb3-c258-48c6-a16a-694e8e81f35b",
+      "ef31dc5d-0798-4b24-9ce2-4661004e24a4",
+      "09ed9998-7845-45f1-bb40-b4a6fe9a662e",
+      "a7d99bd2-dd3a-45ab-b5c6-517555b903d3",
+      "3603d745-0343-41bc-990f-43ba40684cd0",
+      "3ae598f7-ec64-45c4-988b-efca2d77d37b",
+      "1657a6dd-3bdb-4c87-97c8-fdd59bb02a85",
+      "ecdd589e-cf91-4085-823a-94a8d2847aa9",
+      "6636c912-6ee5-4afe-915a-5ca067928813",
+      "63f4c0c2-fc06-4a9c-9034-fb0a43bb62d9",
+      "dd8480e5-6c3b-45ca-ab73-364f6ce74692",
+      "b332dce5-df4e-4b0c-9f0a-f5f9cde98e1e",
+      "0ec0bcd4-833a-4621-9a88-e31a00ac470a",
+      "8b1b0a48-4521-4ee7-aaeb-00e8d4d57baa",
+      "ae473ac9-3072-495a-a92f-a29b6c7bef36",
+      "prof-0540",
+      "prof-0571"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Operating Systems",
+    "professorsCount": 22,
+    "professorIds": [
+      "bc911094-a38d-43d6-bed7-e171e165d616",
+      "87f893e7-3acb-4e6f-8331-34955cd94190",
+      "3e857d97-6193-48af-8d24-fe0e321286c3",
+      "c54c299c-6031-4203-af2c-7be627faf691",
+      "b1291ad9-24b6-4b84-b5b6-b221a40f778e",
+      "4bfefaa8-62d6-4032-87fb-34053367445d",
+      "8d6a7b63-47da-4a4e-b3ec-9a09ab1a9d34",
+      "d456b1df-5912-4174-94f3-40a031fb9340",
+      "379545e9-c4d4-4045-a053-e04e4e43967a",
+      "d7db764d-3b77-401a-98e5-71cb1ad50121",
+      "72f50a13-0fea-4c60-abb9-662615db2552",
+      "b5f67704-2d18-48d7-936c-bfb66f895754",
+      "64a639c7-b8b8-4c68-958e-8a56a14131de",
+      "1e3a0809-0bde-4612-90c9-9dcfea862e0c",
+      "73f7cca8-5e03-4b1f-a729-3432a56eaaf5",
+      "b87a644f-989a-474b-8796-d51dfc04accf",
+      "d31c31e2-3933-43bf-ad61-30049f41a2a7",
+      "a03dd25b-6ff1-4450-8fc1-c9d5f7825ec4",
+      "3d549fbb-f522-47de-9d66-dd51339b8995",
+      "0585a9ca-a780-4b48-b2a9-203251e802f4",
+      "prof-0496",
+      "prof-0522"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Linear Algebra",
+    "professorsCount": 20,
+    "professorIds": [
+      "20cc900e-67ce-434f-9216-8f44853d826b",
+      "de0a0adc-81a4-491b-8cf2-985079583007",
+      "0b772268-0c49-495d-9035-797d420b624a",
+      "f249b682-1967-4fb7-9ade-a736354b9d3f",
+      "8d1065b0-3ef3-4d3d-a9d1-8620ff01c1ca",
+      "60c63470-5718-457b-8b23-a26924a2b4ab",
+      "1b20ea75-406d-4898-9cf9-8e8c22a4ec58",
+      "27e0c41a-f509-4d34-bef0-5d7d99a9fae1",
+      "5e783b5d-1eb8-4c5d-9f0c-71c8974f7520",
+      "f928290a-04b3-4ee5-93c2-5dbbed4f5395",
+      "30b1b1d8-cfab-4750-b19f-c571730e8652",
+      "53cd460b-7e2e-4ef1-8369-c7f52519c0d1",
+      "4409299c-8152-4e08-9677-8ab13b5c7389",
+      "6f50faab-9f60-4a9a-ba08-512d6a02dc61",
+      "e445d19f-7a46-4443-b9af-0821737c7ac3",
+      "b332dce5-df4e-4b0c-9f0a-f5f9cde98e1e",
+      "fff0de67-4716-4c72-b8dc-b22593458347",
+      "7f7adab5-9e66-424f-b47f-4a844a403244",
+      "0dd174ef-adec-431f-8d93-1fe7b8abf991",
+      "prof-0537"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Algorithms and Data Structures",
+    "professorsCount": 20,
+    "professorIds": [
+      "7da8496b-720b-484a-ad3d-73e7b681e1fc",
+      "e591312b-749b-4284-aaa5-dafb7231e45d",
+      "42dba3c4-4ea8-4fdc-8bad-c07839035bf7",
+      "1f934813-1ece-4b29-8d31-65e4ba1332a8",
+      "1ea61687-d17c-4e45-9816-ba7cfe2f1c56",
+      "f3ad65d1-cc6c-431f-ba83-0eaf2e494f7e",
+      "97caafcc-6a4b-4c7c-a20b-6201fa750241",
+      "c15b81ff-841b-442a-92b3-7f045d22a3db",
+      "302e40a2-cf11-46a5-bb3b-a2d7834d5f9f",
+      "9e798104-17d3-4c81-94af-77435d8f927a",
+      "0a3ee5af-1346-4c00-9922-2894318826e1",
+      "950b85b6-d670-4a76-9a42-8ce84bb0c72b",
+      "0f560b25-f610-4ac4-943c-4ddb5cf416f2",
+      "24de332b-4af6-4139-9683-954edc81d664",
+      "e131aa2e-2d84-47af-be24-62863b4095cb",
+      "fae4c451-b03c-4a3e-8e1e-575b661b2513",
+      "f97ef313-3ab6-45a9-a33d-f070d36e722f",
+      "324c70c5-3d07-4b7c-ac04-863c0d4ad5d3",
+      "951e48e7-f564-4188-86a2-901c61403a63",
+      "prof-0553"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Database Management Systems",
+    "professorsCount": 19,
+    "professorIds": [
+      "5b1941c7-e49e-479d-8e99-389a545f9c96",
+      "586cf37e-3d76-447f-aa6f-377c721b5e4a",
+      "84261737-c433-4c1b-8dc6-6f0f3f97e2e1",
+      "ffe82066-b70d-4647-b535-428f409c229e",
+      "13c939a7-802b-44f2-a097-f62fa31d2f78",
+      "d95cd1ec-658b-49d1-aa2e-ab7ceee01c33",
+      "add76d37-522c-4145-a48a-173e4246d8cd",
+      "e9e9154e-e732-40bd-b0e7-530044361084",
+      "eb99e7df-bd68-4c34-8b01-769bf7fcf11e",
+      "f7387207-93a4-41ec-95e4-4fbb91995bd9",
+      "0a63423d-edf3-44df-b922-7ba1849138ad",
+      "24de332b-4af6-4139-9683-954edc81d664",
+      "4b6c57a6-3ef9-443d-9b38-b043092ddc68",
+      "bafe090c-b717-4c51-a823-7ee8f040a68a",
+      "e131aa2e-2d84-47af-be24-62863b4095cb",
+      "638061b4-9798-490e-8e3a-5d18c838116c",
+      "7b6b7cd2-08c1-4291-aa5a-3cf6d91c11a4",
+      "98b9b46f-3b8f-475b-826a-49736c57f014",
+      "bbdf9a88-f86f-4ff9-8531-6854beedc6a5"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Calculus 1",
+    "professorsCount": 19,
+    "professorIds": [
+      "419cb81a-b306-4005-adbc-92d59a199968",
+      "626ca0dd-64fc-4b8b-95c6-1a3a5540a520",
+      "de0a0adc-81a4-491b-8cf2-985079583007",
+      "5bea33b2-93c6-4810-b372-91b8bde6b340",
+      "51e87cb3-c258-48c6-a16a-694e8e81f35b",
+      "a7d99bd2-dd3a-45ab-b5c6-517555b903d3",
+      "7f8b512f-7ac1-46a1-b19b-53b6dc58e50c",
+      "daa54261-22b1-4f1d-819d-d50f2c284301",
+      "ecdd589e-cf91-4085-823a-94a8d2847aa9",
+      "7c531f38-ddc5-47dd-a65b-6b91b5a3c462",
+      "6636c912-6ee5-4afe-915a-5ca067928813",
+      "ded7d00b-ee63-4981-b7f6-be2166bc0db3",
+      "6f50faab-9f60-4a9a-ba08-512d6a02dc61",
+      "6886cddf-ddb7-42a5-b441-94617c64f6fd",
+      "aed69182-6a60-4761-978c-ba9fa918fd67",
+      "fff0de67-4716-4c72-b8dc-b22593458347",
+      "eb085104-91ee-4f58-b7da-12c4a47914c0",
+      "ae473ac9-3072-495a-a92f-a29b6c7bef36",
+      "prof-0547"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Probability and Statistics",
+    "professorsCount": 17,
+    "professorIds": [
+      "cf8906d6-8e3d-4996-9db2-cbea1e4abb0c",
+      "c5fe961a-5aa0-4d89-84f1-b80713c1d05a",
+      "a62011d9-a692-4bab-8efc-8794603deeaf",
+      "91188670-a6f2-402d-91ac-59ba0d8197d5",
+      "7f8b512f-7ac1-46a1-b19b-53b6dc58e50c",
+      "2cd81496-cc79-4a27-accf-52c16db65cd2",
+      "daa54261-22b1-4f1d-819d-d50f2c284301",
+      "01f7f1af-1e22-4df9-a41a-7cfcfb01ccde",
+      "dba8b7ec-8adf-4a49-a860-a09a05530760",
+      "6886cddf-ddb7-42a5-b441-94617c64f6fd",
+      "7000647b-9f30-4241-87cc-e8445c27825b",
+      "aed69182-6a60-4761-978c-ba9fa918fd67",
+      "ddd55ac1-d5f7-4f96-913b-12cc895e7a58",
+      "74ecf0eb-c70a-4731-9f1d-27ada0a53c02",
+      "48c343f5-04e2-4300-af80-e1a64c95b9c3",
+      "b3326216-a99d-4ef3-8780-577a5a639eaa",
+      "prof-0548"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to SOC Analytics",
+    "professorsCount": 15,
+    "professorIds": [
+      "bc911094-a38d-43d6-bed7-e171e165d616",
+      "e6bacf02-3e50-41e2-871a-373b41591abb",
+      "8608f4d3-ae2d-40f7-acb8-647cd653e325",
+      "d30347de-7c16-4e5c-b060-0af608a9fb40",
+      "bb003aa5-7f05-48dd-a315-12dab96ea341",
+      "03b0d414-fc55-46f0-8282-25e5eaa0a971",
+      "ee17f9e0-c255-4e0c-a505-f5c6689eaa73",
+      "64a639c7-b8b8-4c68-958e-8a56a14131de",
+      "aeffe5dd-b6d6-4743-9b0e-22e2b5848d98",
+      "1e3a0809-0bde-4612-90c9-9dcfea862e0c",
+      "b07d5d97-8fc3-4dc3-98bc-e9b762dd4fb8",
+      "d31c31e2-3933-43bf-ad61-30049f41a2a7",
+      "a03dd25b-6ff1-4450-8fc1-c9d5f7825ec4",
+      "bef01396-7cfd-4651-b3af-dcbdd56ecc70",
+      "3d549fbb-f522-47de-9d66-dd51339b8995"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Hacking Lab",
+    "professorsCount": 13,
+    "professorIds": [
+      "d252ce02-3053-427a-b620-81279d18365d",
+      "4bfefaa8-62d6-4032-87fb-34053367445d",
+      "d456b1df-5912-4174-94f3-40a031fb9340",
+      "3c3691ee-e44d-4de9-9ee3-0036ccbea78a",
+      "f2a91e4c-9c5f-4fda-8e4d-0ff61a6e1d75",
+      "72f50a13-0fea-4c60-abb9-662615db2552",
+      "06fb0b7b-526d-4b0d-8d60-3e1b0f957ef0",
+      "46b3b853-c019-487e-9fdd-9528902bc458",
+      "64a639c7-b8b8-4c68-958e-8a56a14131de",
+      "aeffe5dd-b6d6-4743-9b0e-22e2b5848d98",
+      "7d53aba4-071c-435e-94cb-459b06759cb7",
+      "4ba3c481-518c-4f86-940b-4b08246f866c",
+      "8676150c-6d7d-41db-a081-1875684331f8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Information and Communication Technologies",
+    "professorsCount": 13,
+    "professorIds": [
+      "0346d210-ba5e-4ddc-b98f-9ab1b1c90b28",
+      "7da8496b-720b-484a-ad3d-73e7b681e1fc",
+      "ffe82066-b70d-4647-b535-428f409c229e",
+      "13c939a7-802b-44f2-a097-f62fa31d2f78",
+      "0ca7ba03-9b7b-40fa-8523-67634282c3ca",
+      "5e4baac8-95ae-4c5e-b953-cc50cd842937",
+      "5509bb68-9823-4b69-9318-7b9aed84a720",
+      "4b6c57a6-3ef9-443d-9b38-b043092ddc68",
+      "c83e7582-68b8-41ef-896a-a4c409fb90fd",
+      "85f85f90-3748-46ec-a1bb-b163d66dff53",
+      "fa449619-0a69-45b0-a832-4da7c3fee605",
+      "1a4c5edc-7797-4b2b-9552-3cf1ae6632b0",
+      "bbdf9a88-f86f-4ff9-8531-6854beedc6a5"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Object-Oriented Programming",
+    "professorsCount": 13,
+    "professorIds": [
+      "7da8496b-720b-484a-ad3d-73e7b681e1fc",
+      "e591312b-749b-4284-aaa5-dafb7231e45d",
+      "42dba3c4-4ea8-4fdc-8bad-c07839035bf7",
+      "1ea61687-d17c-4e45-9816-ba7cfe2f1c56",
+      "97caafcc-6a4b-4c7c-a20b-6201fa750241",
+      "16f42de4-109f-45d5-a0b7-85c546a32a46",
+      "c15b81ff-841b-442a-92b3-7f045d22a3db",
+      "66c13283-18b9-421f-924d-ed02421c0425",
+      "9e798104-17d3-4c81-94af-77435d8f927a",
+      "0a3ee5af-1346-4c00-9922-2894318826e1",
+      "59b97889-5d81-4a2e-9860-10342446ac82",
+      "62dc942d-a89b-4f90-9fa0-383ea0620a9b",
+      "324c70c5-3d07-4b7c-ac04-863c0d4ad5d3"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 2 (Chinese)",
+    "professorsCount": 13,
+    "professorIds": [
+      "35296a21-ca03-4351-8705-2b7a34b6fd95",
+      "prof-0564",
+      "prof-0565",
+      "prof-0566",
+      "prof-0567",
+      "prof-0568",
+      "prof-0569",
+      "prof-0570",
+      "prof-0572",
+      "prof-0573",
+      "prof-0574",
+      "prof-0575",
+      "prof-0576"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Discrete Mathematics",
+    "professorsCount": 12,
+    "professorIds": [
+      "0ac7c0ee-851e-44fb-9db1-96ecbbf4f99f",
+      "8c69b288-029b-4e20-b5a9-3bbb85ab3f97",
+      "eeac4e15-a74b-4d2d-9ef9-1506802ba3dc",
+      "f6ad5ddc-228e-4b08-b0dc-9bf93d59b2d2",
+      "20886c0a-fb91-4594-82ef-4ff3da8b7fee",
+      "60c63470-5718-457b-8b23-a26924a2b4ab",
+      "bc80098c-cc41-44c9-9302-2646a36b1be6",
+      "a99e94b6-16dd-4264-b6c5-4546b53bc2d8",
+      "e5bc41a1-df15-48f6-bfa1-d452568c4180",
+      "7f7adab5-9e66-424f-b47f-4a844a403244",
+      "0dd174ef-adec-431f-8d93-1fe7b8abf991",
+      "fadff0c2-eea9-4266-8916-4816c8076fdf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Operating Systems Security",
+    "professorsCount": 12,
+    "professorIds": [
+      "d252ce02-3053-427a-b620-81279d18365d",
+      "b35708e4-8bf0-4822-a469-4eeb05838ddc",
+      "8d6a7b63-47da-4a4e-b3ec-9a09ab1a9d34",
+      "1e3a0809-0bde-4612-90c9-9dcfea862e0c",
+      "4ba3c481-518c-4f86-940b-4b08246f866c",
+      "d31c31e2-3933-43bf-ad61-30049f41a2a7",
+      "a03dd25b-6ff1-4450-8fc1-c9d5f7825ec4",
+      "bef01396-7cfd-4651-b3af-dcbdd56ecc70",
+      "0585a9ca-a780-4b48-b2a9-203251e802f4",
+      "a4ed48e9-e0d1-410c-b83d-94aa4cb4568a",
+      "2ba8d00c-513d-462d-bf31-b57d8dc46c5c",
+      "prof-0559"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 1 (German)",
+    "professorsCount": 12,
+    "professorIds": [
+      "prof-0501",
+      "prof-0502",
+      "prof-0503",
+      "prof-0504",
+      "prof-0505",
+      "prof-0506",
+      "prof-0507",
+      "prof-0509",
+      "prof-0510",
+      "prof-0511",
+      "prof-0512",
+      "prof-0513"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 2 (German)",
+    "professorsCount": 12,
+    "professorIds": [
+      "prof-0501",
+      "prof-0502",
+      "prof-0503",
+      "prof-0504",
+      "prof-0505",
+      "prof-0506",
+      "prof-0507",
+      "prof-0510",
+      "prof-0511",
+      "prof-0542",
+      "prof-0543",
+      "prof-0544"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computer Networks",
+    "professorsCount": 11,
+    "professorIds": [
+      "d252ce02-3053-427a-b620-81279d18365d",
+      "d978b53e-dd17-4ea7-99f2-6ff95b788fa0",
+      "18420355-5913-4c92-baa5-7e6c2c867a26",
+      "87f893e7-3acb-4e6f-8331-34955cd94190",
+      "8d6a7b63-47da-4a4e-b3ec-9a09ab1a9d34",
+      "72f50a13-0fea-4c60-abb9-662615db2552",
+      "54628537-4847-4740-8595-f3d296d48204",
+      "46b3b853-c019-487e-9fdd-9528902bc458",
+      "b5f67704-2d18-48d7-936c-bfb66f895754",
+      "09df4b4c-0ad3-46b9-a1a2-21d82fe11cd6",
+      "prof-0536"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Cybersecurity",
+    "professorsCount": 11,
+    "professorIds": [
+      "d252ce02-3053-427a-b620-81279d18365d",
+      "3e857d97-6193-48af-8d24-fe0e321286c3",
+      "d456b1df-5912-4174-94f3-40a031fb9340",
+      "379545e9-c4d4-4045-a053-e04e4e43967a",
+      "a96db850-8f18-4ecd-9e87-a5c8d763b79d",
+      "3c3691ee-e44d-4de9-9ee3-0036ccbea78a",
+      "4d6c10f4-2a01-4325-97bb-be6257b3ae2d",
+      "46b3b853-c019-487e-9fdd-9528902bc458",
+      "7d53aba4-071c-435e-94cb-459b06759cb7",
+      "a03dd25b-6ff1-4450-8fc1-c9d5f7825ec4",
+      "0e3d029f-3b42-4f26-9d6a-a526814aaa33"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Windows System Administration",
+    "professorsCount": 11,
+    "professorIds": [
+      "e6bacf02-3e50-41e2-871a-373b41591abb",
+      "87f893e7-3acb-4e6f-8331-34955cd94190",
+      "379545e9-c4d4-4045-a053-e04e4e43967a",
+      "f2a91e4c-9c5f-4fda-8e4d-0ff61a6e1d75",
+      "54628537-4847-4740-8595-f3d296d48204",
+      "c54179dd-b284-4890-b729-6edf4c356bf6",
+      "73f7cca8-5e03-4b1f-a729-3432a56eaaf5",
+      "b87a644f-989a-474b-8796-d51dfc04accf",
+      "a03dd25b-6ff1-4450-8fc1-c9d5f7825ec4",
+      "bef01396-7cfd-4651-b3af-dcbdd56ecc70",
+      "prof-0522"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Machine Learning Algorithms",
+    "professorsCount": 11,
+    "professorIds": [
+      "d4a1df14-ba02-4f39-9ee1-28e9a0788f1b",
+      "f0647e85-5f1d-471b-8fce-cb9c95b62036",
+      "3f5af8ab-4bdb-4e25-9764-61fa41df178a",
+      "eeea2d0b-2d62-4e00-83cc-2064eee94f11",
+      "f249b682-1967-4fb7-9ade-a736354b9d3f",
+      "c5649bf4-5a70-4de3-ab03-89619dc7472e",
+      "ff8fd28d-61ac-4cdf-ace7-d65321bb93ed",
+      "53cd460b-7e2e-4ef1-8369-c7f52519c0d1",
+      "ec608a8d-0c3f-4e66-b6fb-ff30faf0f9a4",
+      "prof-0577",
+      "prof-0578"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computer Architecture",
+    "professorsCount": 10,
+    "professorIds": [
+      "b0efb153-7a24-42ff-9fbe-27e16c95231a",
+      "85737d52-d4ba-4d13-8ef7-5ea4ae1011c7",
+      "335535e5-8f0e-4e47-9468-4a7aba83206f",
+      "bf81caf7-6d9b-4d18-949b-25cb9e85e0b9",
+      "8c48249c-e3df-49c6-989f-3af0c3160bcf",
+      "1013cec0-a0b0-4b6a-8dd0-be7e84a8a61c",
+      "d39cd6b8-8402-402b-8646-b291a218af66",
+      "a8b0fb75-881d-46e9-b701-9ae87c990413",
+      "a363f93d-096f-41a1-95a8-29fe784f28db",
+      "5e35c42f-bb36-4c30-aebc-49c641b1b8aa"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Cryptography",
+    "professorsCount": 10,
+    "professorIds": [
+      "c54c299c-6031-4203-af2c-7be627faf691",
+      "72f50a13-0fea-4c60-abb9-662615db2552",
+      "c54179dd-b284-4890-b729-6edf4c356bf6",
+      "64a639c7-b8b8-4c68-958e-8a56a14131de",
+      "73f7cca8-5e03-4b1f-a729-3432a56eaaf5",
+      "b87a644f-989a-474b-8796-d51dfc04accf",
+      "2ba8d00c-513d-462d-bf31-b57d8dc46c5c",
+      "prof-0522",
+      "prof-0550",
+      "prof-0558"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming 1",
+    "professorsCount": 10,
+    "professorIds": [
+      "e591312b-749b-4284-aaa5-dafb7231e45d",
+      "1b900acf-56b6-4b13-bd1f-397e4a0a7385",
+      "81821a06-c5d8-431a-a0c1-667745e81cf0",
+      "16f42de4-109f-45d5-a0b7-85c546a32a46",
+      "66c13283-18b9-421f-924d-ed02421c0425",
+      "56aed4c2-02c1-4c84-9856-26eb2d528096",
+      "af092f61-f7c0-4a9f-af7b-ff4c7db8ba44",
+      "0a3ee5af-1346-4c00-9922-2894318826e1",
+      "4ad1c2de-f6e8-4b62-ac25-ce92064977c7",
+      "24de332b-4af6-4139-9683-954edc81d664"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Russian Language 2",
+    "professorsCount": 10,
+    "professorIds": [
+      "7b0b1fe9-2b7b-4422-a088-8d8dc6d23cb4",
+      "c1746c0d-c9ef-49e8-b03b-a5a404dee5b5",
+      "7efe0c9c-080a-4d16-aef8-f1f232ef1949",
+      "bdaba929-fec9-4381-a183-0b7e988d1f2c",
+      "822fbbd3-0759-4fb7-8a8c-1ef658d37cd5",
+      "0762a78c-8f8f-4a43-b32a-3ef304234fcb",
+      "prof-0492",
+      "prof-0493",
+      "prof-0495",
+      "prof-0498"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Russian Language 1",
+    "professorsCount": 10,
+    "professorIds": [
+      "7b0b1fe9-2b7b-4422-a088-8d8dc6d23cb4",
+      "c1746c0d-c9ef-49e8-b03b-a5a404dee5b5",
+      "7efe0c9c-080a-4d16-aef8-f1f232ef1949",
+      "bdaba929-fec9-4381-a183-0b7e988d1f2c",
+      "822fbbd3-0759-4fb7-8a8c-1ef658d37cd5",
+      "0762a78c-8f8f-4a43-b32a-3ef304234fcb",
+      "prof-0492",
+      "prof-0493",
+      "prof-0495",
+      "prof-0498"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "WEB Technologies 2 (Back End)",
+    "professorsCount": 9,
+    "professorIds": [
+      "586cf37e-3d76-447f-aa6f-377c721b5e4a",
+      "71cbc725-54d8-40cd-bc77-736e2c17797a",
+      "a74eddc7-1024-4eb8-9230-227a403296bc",
+      "e76580e8-a347-45b8-8ef8-cf754f78714f",
+      "56441602-62f3-43d5-974c-ae755cfd6266",
+      "f97ef313-3ab6-45a9-a33d-f070d36e722f",
+      "prof-0497",
+      "prof-0555",
+      "prof-0561"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Operating Systems",
+    "professorsCount": 9,
+    "professorIds": [
+      "484c9103-d7e0-48cd-88fa-719d915b138d",
+      "e6bacf02-3e50-41e2-871a-373b41591abb",
+      "4bfefaa8-62d6-4032-87fb-34053367445d",
+      "b35708e4-8bf0-4822-a469-4eeb05838ddc",
+      "a96db850-8f18-4ecd-9e87-a5c8d763b79d",
+      "d7db764d-3b77-401a-98e5-71cb1ad50121",
+      "46b3b853-c019-487e-9fdd-9528902bc458",
+      "97aaa61e-795a-4d13-9d16-88deb64649d2",
+      "0585a9ca-a780-4b48-b2a9-203251e802f4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "WEB Technologies 1 (Front End)",
+    "professorsCount": 9,
+    "professorIds": [
+      "71cbc725-54d8-40cd-bc77-736e2c17797a",
+      "a74eddc7-1024-4eb8-9230-227a403296bc",
+      "0ca7ba03-9b7b-40fa-8523-67634282c3ca",
+      "f7387207-93a4-41ec-95e4-4fbb91995bd9",
+      "56441602-62f3-43d5-974c-ae755cfd6266",
+      "11750b5b-902d-4439-aee0-4e336744db0c",
+      "f97ef313-3ab6-45a9-a33d-f070d36e722f",
+      "376d287f-1b6d-4611-b689-04b175852b71",
+      "prof-0497"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming 2",
+    "professorsCount": 9,
+    "professorIds": [
+      "8db91f7b-6637-4755-a219-f567f7cfe6e8",
+      "4892da17-d369-4b12-9e1b-26740e8f3b4e",
+      "e9e9154e-e732-40bd-b0e7-530044361084",
+      "16f42de4-109f-45d5-a0b7-85c546a32a46",
+      "5e4baac8-95ae-4c5e-b953-cc50cd842937",
+      "b749b998-032b-4b5b-a42f-9f051784feca",
+      "eb99e7df-bd68-4c34-8b01-769bf7fcf11e",
+      "fed12a63-fa45-466e-896d-a3a8357b1116",
+      "376d287f-1b6d-4611-b689-04b175852b71"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Operating Systems and Computer Networks",
+    "professorsCount": 9,
+    "professorIds": [
+      "b1291ad9-24b6-4b84-b5b6-b221a40f778e",
+      "79e432e0-f8d6-417c-86b0-981afe679791",
+      "54628537-4847-4740-8595-f3d296d48204",
+      "46b3b853-c019-487e-9fdd-9528902bc458",
+      "d31c31e2-3933-43bf-ad61-30049f41a2a7",
+      "0e3d029f-3b42-4f26-9d6a-a526814aaa33",
+      "84f5c3e0-ca0b-4291-856e-b7866c5f5f1c",
+      "prof-0491",
+      "prof-0536"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming",
+    "professorsCount": 9,
+    "professorIds": [
+      "4892da17-d369-4b12-9e1b-26740e8f3b4e",
+      "1ea61687-d17c-4e45-9816-ba7cfe2f1c56",
+      "f3ad65d1-cc6c-431f-ba83-0eaf2e494f7e",
+      "c15b81ff-841b-442a-92b3-7f045d22a3db",
+      "302e40a2-cf11-46a5-bb3b-a2d7834d5f9f",
+      "af092f61-f7c0-4a9f-af7b-ff4c7db8ba44",
+      "0f560b25-f610-4ac4-943c-4ddb5cf416f2",
+      "59b97889-5d81-4a2e-9860-10342446ac82",
+      "fae4c451-b03c-4a3e-8e1e-575b661b2513"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "History of Kazakhstan (State Exam)",
+    "professorsCount": 8,
+    "professorIds": [
+      "8e7b8481-1ebe-40af-aebf-e4667e20f871",
+      "e2d3a662-d41b-4611-8941-bb43028ca792",
+      "eb12b869-0ba7-469b-9009-3c8b582d675c",
+      "bfb9dc6d-b470-4e53-8ffc-5ae57d118fed",
+      "a66a7343-633f-4838-bcb2-dfc18b497bf2",
+      "2be3d4ad-6f39-430a-8314-d33c48a45347",
+      "b46e5a98-4488-462f-8c2f-fce572f88bb7",
+      "2a8885b4-24eb-4153-864d-6d6e30614e30"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computational Mathematics",
+    "professorsCount": 8,
+    "professorIds": [
+      "51e87cb3-c258-48c6-a16a-694e8e81f35b",
+      "f7159e63-2fe9-4bfc-a007-63c55ef124f6",
+      "09ed9998-7845-45f1-bb40-b4a6fe9a662e",
+      "01f7f1af-1e22-4df9-a41a-7cfcfb01ccde",
+      "53cd460b-7e2e-4ef1-8369-c7f52519c0d1",
+      "888e8626-8ee4-4c1d-a09a-ddeec79f3777",
+      "ec608a8d-0c3f-4e66-b6fb-ff30faf0f9a4",
+      "34e08343-fcb1-4d0c-93e8-5aa5eeaf9ac6"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Logic Design",
+    "professorsCount": 8,
+    "professorIds": [
+      "335535e5-8f0e-4e47-9468-4a7aba83206f",
+      "92e02288-00dd-4bd2-b234-ba74fd8864a0",
+      "bf81caf7-6d9b-4d18-949b-25cb9e85e0b9",
+      "6b3a87a2-f0d5-4c2b-a6da-95b834752cf7",
+      "1013cec0-a0b0-4b6a-8dd0-be7e84a8a61c",
+      "d39cd6b8-8402-402b-8646-b291a218af66",
+      "0e3d029f-3b42-4f26-9d6a-a526814aaa33",
+      "a363f93d-096f-41a1-95a8-29fe784f28db"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Database Programming (PL/SQL)",
+    "professorsCount": 7,
+    "professorIds": [
+      "855cd036-dcfc-4262-a310-34aab3bb9f11",
+      "8db91f7b-6637-4755-a219-f567f7cfe6e8",
+      "035730b6-6a67-435e-91a3-f419e2ca2ab2",
+      "7b6568a9-aef9-4b04-b544-ecab9f314034",
+      "376d287f-1b6d-4611-b689-04b175852b71",
+      "prof-0554",
+      "prof-0557"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Native Mobile Development",
+    "professorsCount": 7,
+    "professorIds": [
+      "586cf37e-3d76-447f-aa6f-377c721b5e4a",
+      "11750b5b-902d-4439-aee0-4e336744db0c",
+      "fa449619-0a69-45b0-a832-4da7c3fee605",
+      "638061b4-9798-490e-8e3a-5d18c838116c",
+      "1f6a8f57-2028-494b-b0ef-fe1a9734185b",
+      "prof-0551",
+      "prof-0552"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Kazakh Language 2",
+    "professorsCount": 7,
+    "professorIds": [
+      "367e3ceb-ddcb-4230-8fdf-2a1b42c05a53",
+      "fa1a831b-3bc9-4393-acfa-996cd73e4ed3",
+      "1528f2f8-d52d-488a-9547-74e75be85262",
+      "57e333b4-c37b-425d-999b-53099bd24c17",
+      "59444b0f-bfb1-4855-9cdb-78f9ab5965f8",
+      "prof-0508",
+      "prof-0524"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Kazakh Language 1",
+    "professorsCount": 7,
+    "professorIds": [
+      "367e3ceb-ddcb-4230-8fdf-2a1b42c05a53",
+      "fa1a831b-3bc9-4393-acfa-996cd73e4ed3",
+      "57e333b4-c37b-425d-999b-53099bd24c17",
+      "59444b0f-bfb1-4855-9cdb-78f9ab5965f8",
+      "prof-0508",
+      "prof-0524",
+      "prof-0526"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Analytic Geometry",
+    "professorsCount": 7,
+    "professorIds": [
+      "8c7425bb-2629-489b-9920-b74b4c6f01ef",
+      "a62011d9-a692-4bab-8efc-8794603deeaf",
+      "3f5af8ab-4bdb-4e25-9764-61fa41df178a",
+      "3603d745-0343-41bc-990f-43ba40684cd0",
+      "dd8480e5-6c3b-45ca-ab73-364f6ce74692",
+      "8b1b0a48-4521-4ee7-aaeb-00e8d4d57baa",
+      "prof-0547"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign language (professional)",
+    "professorsCount": 7,
+    "professorIds": [
+      "c4f7dadf-511e-46c5-938d-7311737c6d9b",
+      "0acdf70b-b64b-48b3-b043-6c7a05b4d6b6",
+      "3f409456-df4d-4e19-bfcf-d3645f5bf700",
+      "c72e7740-c667-41e6-ab25-9651790470f3",
+      "c5afb381-8c40-44ec-a81b-b20df1861808",
+      "aa57a00b-76fb-47a6-ae79-55ff64460385",
+      "28506724-b7de-42a1-a265-a0a9769530de"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Electronics",
+    "professorsCount": 7,
+    "professorIds": [
+      "91d1a59d-5941-4176-8ecf-4df1cd94d2aa",
+      "e2faf2e3-365f-46ef-b156-c2c0016f2e7d",
+      "fd162ff7-a09d-40f7-beaa-196adb12b1a2",
+      "6edbe585-54ce-4227-a97c-6974815467b9",
+      "7df58098-c9aa-486f-8357-e7cdfe786e58",
+      "6291d482-d3ff-4eae-ad02-1825ba98c955",
+      "03edf710-bd76-4564-9ed1-7cc1538e0044"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Design and Analysis of Algorithms",
+    "professorsCount": 7,
+    "professorIds": [
+      "1058e32d-42a6-457a-b641-2319d4ac8304",
+      "323d0226-2197-43fb-a6ae-7c1ad9b9802e",
+      "aea7bc23-9750-4d48-8c81-73cb236477b3",
+      "9043d82a-4635-4b28-a7eb-af70df272648",
+      "66516f10-62d5-44bb-8b6b-16bc8047565a",
+      "9e798104-17d3-4c81-94af-77435d8f927a",
+      "fed12a63-fa45-466e-896d-a3a8357b1116"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 2 (Korean)",
+    "professorsCount": 7,
+    "professorIds": [
+      "prof-0514",
+      "prof-0515",
+      "prof-0516",
+      "prof-0517",
+      "prof-0518",
+      "prof-0519",
+      "prof-0520"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 1 (Korean)",
+    "professorsCount": 7,
+    "professorIds": [
+      "prof-0514",
+      "prof-0515",
+      "prof-0516",
+      "prof-0517",
+      "prof-0518",
+      "prof-0519",
+      "prof-0520"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Political Science",
+    "professorsCount": 6,
+    "professorIds": [
+      "0b25c84e-31d6-4b24-9e2c-41a4e138b558",
+      "2ffac6ab-a6d5-4b0b-b052-1f1f6513831a",
+      "0acdf70b-b64b-48b3-b043-6c7a05b4d6b6",
+      "dce66fdb-ae97-45b3-8217-a0c7d0d2648f",
+      "7f6489d9-3ccc-48c2-b131-b6432e8fd1f1",
+      "prof-0526"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Calculus",
+    "professorsCount": 6,
+    "professorIds": [
+      "7eed92b0-2d2e-4ea2-9def-54a2d98a21b3",
+      "09ed9998-7845-45f1-bb40-b4a6fe9a662e",
+      "60c63470-5718-457b-8b23-a26924a2b4ab",
+      "767e4bc3-ce70-4a90-a11f-9cadd4871725",
+      "6f50faab-9f60-4a9a-ba08-512d6a02dc61",
+      "63f4c0c2-fc06-4a9c-9034-fb0a43bb62d9"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computer Organisation and Architecture",
+    "professorsCount": 6,
+    "professorIds": [
+      "dac41322-46f2-4c1a-8474-47444318661e",
+      "0a63423d-edf3-44df-b922-7ba1849138ad",
+      "bafe090c-b717-4c51-a823-7ee8f040a68a",
+      "prof-0521",
+      "prof-0523",
+      "prof-0560"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Circuit Theory",
+    "professorsCount": 6,
+    "professorIds": [
+      "4b5bf787-3a69-488f-8b8d-8ee7737d1171",
+      "e104336c-2f5a-45c3-814b-122520ff70d8",
+      "b587b9df-be1d-430a-8a4a-326a5ffad0cb",
+      "42b8d386-c3f0-406f-826e-28a154ff005c",
+      "8a7591fc-597d-427e-887a-fb586d170c95",
+      "6239127c-6bc9-4f4a-a385-91e070ea0244"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Cultural Studies",
+    "professorsCount": 6,
+    "professorIds": [
+      "976fc099-8251-4a21-a0e1-6d8dad816b18",
+      "cd4850a8-8ac8-45d9-a0de-df173feb8897",
+      "3e376c61-069c-40ac-95a7-91cc12efeb4d",
+      "6afabfc8-761c-4749-9827-865d3bfb72e3",
+      "0ec51311-a7ca-41be-b471-1fb70727e475",
+      "prof-0556"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foreign Language 1 (Chinese)",
+    "professorsCount": 6,
+    "professorIds": [
+      "35296a21-ca03-4351-8705-2b7a34b6fd95",
+      "prof-0530",
+      "prof-0531",
+      "prof-0532",
+      "prof-0533",
+      "prof-0534"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Micro and Macroeconomics",
+    "professorsCount": 5,
+    "professorIds": [
+      "615aa8df-f8d8-436c-a7c6-84601a4d6675",
+      "d0bab31d-331d-4532-aaa0-331046d2b283",
+      "c28b1f38-6520-4de1-b22e-19695fc55d94",
+      "be9f2590-b8cd-4455-b088-db3e30447846",
+      "90aa1d2e-2bf9-4cbe-bd4e-08e699fc6c67"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Cross-platform mobile development",
+    "professorsCount": 5,
+    "professorIds": [
+      "586cf37e-3d76-447f-aa6f-377c721b5e4a",
+      "13c939a7-802b-44f2-a097-f62fa31d2f78",
+      "11750b5b-902d-4439-aee0-4e336744db0c",
+      "638061b4-9798-490e-8e3a-5d18c838116c",
+      "1f6a8f57-2028-494b-b0ef-fe1a9734185b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Project (Simulation)",
+    "professorsCount": 5,
+    "professorIds": [
+      "843ddba0-f7ba-485a-9723-0e21ffbc903b",
+      "c28b1f38-6520-4de1-b22e-19695fc55d94",
+      "44b15c75-86a2-402c-9ef8-fad12f48a524",
+      "90aa1d2e-2bf9-4cbe-bd4e-08e699fc6c67",
+      "667c9c34-b661-4eb5-b3d7-93a276dccd14"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Game Development",
+    "professorsCount": 5,
+    "professorIds": [
+      "0346d210-ba5e-4ddc-b98f-9ab1b1c90b28",
+      "a74eddc7-1024-4eb8-9230-227a403296bc",
+      "0a63423d-edf3-44df-b922-7ba1849138ad",
+      "59b97889-5d81-4a2e-9860-10342446ac82",
+      "56441602-62f3-43d5-974c-ae755cfd6266"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Analytic methods in Computer Science",
+    "professorsCount": 5,
+    "professorIds": [
+      "cf8906d6-8e3d-4996-9db2-cbea1e4abb0c",
+      "bc80098c-cc41-44c9-9302-2646a36b1be6",
+      "fb875342-ca8b-43b1-b393-c5459b207b54",
+      "544336d7-71f4-4d4a-8767-8dbca53a6957",
+      "prof-0537"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Computing and Programming",
+    "professorsCount": 5,
+    "professorIds": [
+      "b0efb153-7a24-42ff-9fbe-27e16c95231a",
+      "85737d52-d4ba-4d13-8ef7-5ea4ae1011c7",
+      "92e02288-00dd-4bd2-b234-ba74fd8864a0",
+      "e104336c-2f5a-45c3-814b-122520ff70d8",
+      "ea84133e-edc9-40f5-b951-be90e1182ecf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Probability Theory",
+    "professorsCount": 5,
+    "professorIds": [
+      "4ff4ad1d-2d34-40da-9a53-26d3dcd4d8df",
+      "dba8b7ec-8adf-4a49-a860-a09a05530760",
+      "4409299c-8152-4e08-9677-8ab13b5c7389",
+      "74ecf0eb-c70a-4731-9f1d-27ada0a53c02",
+      "b3f5b347-1086-473b-a517-9e5b2279e070"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Microcontroller Programming",
+    "professorsCount": 5,
+    "professorIds": [
+      "e104336c-2f5a-45c3-814b-122520ff70d8",
+      "6b3a87a2-f0d5-4c2b-a6da-95b834752cf7",
+      "53a0c186-4aed-4af3-ade7-20537e5d5e13",
+      "0e3d029f-3b42-4f26-9d6a-a526814aaa33",
+      "5e35c42f-bb36-4c30-aebc-49c641b1b8aa"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Philosophy",
+    "professorsCount": 5,
+    "professorIds": [
+      "3647721b-b16b-456c-87b0-b3373394bc62",
+      "469ef430-0355-40d5-9d98-ed9dd5ad3dd4",
+      "0924756c-9f09-4f05-9a7b-69b39c28dfd5",
+      "6afabfc8-761c-4749-9827-865d3bfb72e3",
+      "prof-0538"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Psychology",
+    "professorsCount": 4,
+    "professorIds": [
+      "add81a0a-67f2-40c2-85c7-cfed45d67db4",
+      "65820dda-e614-4d0a-a396-c4caac01e986",
+      "4b912127-e1c1-4b45-8d79-59fcfc00edbc",
+      "1bda7065-5c3f-45d5-8086-77c2c51ef52b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Management & Organisation",
+    "professorsCount": 4,
+    "professorIds": [
+      "615aa8df-f8d8-436c-a7c6-84601a4d6675",
+      "21e63795-d726-41fa-9323-d4209f4003bd",
+      "d0bab31d-331d-4532-aaa0-331046d2b283",
+      "7c3b476b-84c8-4fd2-8d03-81d6a775bc8a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Embedded Systems Design",
+    "professorsCount": 4,
+    "professorIds": [
+      "4dd4a3e0-71af-4af3-b0f2-2929bf79e81e",
+      "6b3a87a2-f0d5-4c2b-a6da-95b834752cf7",
+      "1013cec0-a0b0-4b6a-8dd0-be7e84a8a61c",
+      "d39cd6b8-8402-402b-8646-b291a218af66"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Fundamentals of Materials Science",
+    "professorsCount": 4,
+    "professorIds": [
+      "9b3ba92b-0e9a-4794-b509-70570758180a",
+      "f2d9f8cb-60bf-473f-abbe-5964f6083360",
+      "6edbe585-54ce-4227-a97c-6974815467b9",
+      "86129d1b-e2fb-4bfa-a33b-91b9c38a6724"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Statistics and Data Science 2 (Python)",
+    "professorsCount": 4,
+    "professorIds": [
+      "c5fe961a-5aa0-4d89-84f1-b80713c1d05a",
+      "be8f8162-7335-4300-9984-482098dbc418",
+      "1657a6dd-3bdb-4c87-97c8-fdd59bb02a85",
+      "53cd460b-7e2e-4ef1-8369-c7f52519c0d1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Blockchain Technologies 2",
+    "professorsCount": 4,
+    "professorIds": [
+      "1b900acf-56b6-4b13-bd1f-397e4a0a7385",
+      "9043d82a-4635-4b28-a7eb-af70df272648",
+      "bafe090c-b717-4c51-a823-7ee8f040a68a",
+      "fa449619-0a69-45b0-a832-4da7c3fee605"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Blockchain Technologies 1",
+    "professorsCount": 4,
+    "professorIds": [
+      "1b900acf-56b6-4b13-bd1f-397e4a0a7385",
+      "9043d82a-4635-4b28-a7eb-af70df272648",
+      "5477452a-9f2c-4cbb-a95d-95653c67749c",
+      "prof-0546"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to IoT",
+    "professorsCount": 4,
+    "professorIds": [
+      "9c3016fe-e5a3-4024-b8a4-920f752a12b4",
+      "e104336c-2f5a-45c3-814b-122520ff70d8",
+      "1013cec0-a0b0-4b6a-8dd0-be7e84a8a61c",
+      "a363f93d-096f-41a1-95a8-29fe784f28db"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Python Programming",
+    "professorsCount": 3,
+    "professorIds": [
+      "855cd036-dcfc-4262-a310-34aab3bb9f11",
+      "ffe82066-b70d-4647-b535-428f409c229e",
+      "66c13283-18b9-421f-924d-ed02421c0425"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Databases (NoSQL)",
+    "professorsCount": 3,
+    "professorIds": [
+      "d14c2e5d-0437-41de-af5a-624deb3ec4f4",
+      "98b9b46f-3b8f-475b-826a-49736c57f014",
+      "prof-0563"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Software Test Management",
+    "professorsCount": 3,
+    "professorIds": [
+      "d252ce02-3053-427a-b620-81279d18365d",
+      "b1291ad9-24b6-4b84-b5b6-b221a40f778e",
+      "54628537-4847-4740-8595-f3d296d48204"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Media Technologies",
+    "professorsCount": 3,
+    "professorIds": [
+      "ecc8c3ac-3876-4ead-bb64-fbce29a5ac5a",
+      "0439f83a-c25e-490f-a2c5-d21e07f888e1",
+      "9c7d0a1a-35b5-40b7-91ab-5f72ddd51b7f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Research methods and tools",
+    "professorsCount": 3,
+    "professorIds": [
+      "e78e094b-76a2-4ace-bd86-a147246080bb",
+      "3a8ff646-fbe0-4ec6-942b-df5bc3b52367",
+      "dba97ba5-41af-484f-b3d0-e91d2d26eb9d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Leadership",
+    "professorsCount": 3,
+    "professorIds": [
+      "3ea8d24a-01be-47df-bca8-2c67a61f0260",
+      "0b27b6e8-6000-4f93-820c-32a85b97f5a2",
+      "4de221c5-f7c3-4d18-b28f-5a8bb87d9a4a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Control Systems 1",
+    "professorsCount": 3,
+    "professorIds": [
+      "b0efb153-7a24-42ff-9fbe-27e16c95231a",
+      "126de7ec-691d-4bc2-b02c-34041403dbc9",
+      "5384ae45-4a95-40fe-88ad-3a2850d340f8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Control Systems 2",
+    "professorsCount": 3,
+    "professorIds": [
+      "b0efb153-7a24-42ff-9fbe-27e16c95231a",
+      "126de7ec-691d-4bc2-b02c-34041403dbc9",
+      "5384ae45-4a95-40fe-88ad-3a2850d340f8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics 1",
+    "professorsCount": 3,
+    "professorIds": [
+      "a8a5635f-9947-47d8-a6aa-0fd4e3ff711b",
+      "f2d9f8cb-60bf-473f-abbe-5964f6083360",
+      "a708135a-7b9d-48ef-8c01-799e9745aa0a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics 2",
+    "professorsCount": 3,
+    "professorIds": [
+      "a8a5635f-9947-47d8-a6aa-0fd4e3ff711b",
+      "4b5bf787-3a69-488f-8b8d-8ee7737d1171",
+      "a708135a-7b9d-48ef-8c01-799e9745aa0a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI Essentials: Theory and Applications",
+    "professorsCount": 3,
+    "professorIds": [
+      "2b08c3a7-672d-44b3-b301-9ef7217dc513",
+      "ffe0f061-7cc8-4cae-a0a4-f046b4c24763",
+      "f7159e63-2fe9-4bfc-a007-63c55ef124f6"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Process Engineering",
+    "professorsCount": 3,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d",
+      "c28b1f38-6520-4de1-b22e-19695fc55d94",
+      "90aa1d2e-2bf9-4cbe-bd4e-08e699fc6c67"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Intelligence",
+    "professorsCount": 3,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d",
+      "333fad49-a52b-4cf0-939e-19427a2a7986",
+      "be9f2590-b8cd-4455-b088-db3e30447846"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Software Design Patterns",
+    "professorsCount": 3,
+    "professorIds": [
+      "84261737-c433-4c1b-8dc6-6f0f3f97e2e1",
+      "093adc6d-1520-42e5-98db-b27482fa4ec6",
+      "324c70c5-3d07-4b7c-ac04-863c0d4ad5d3"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Electronics",
+    "professorsCount": 3,
+    "professorIds": [
+      "91d1a59d-5941-4176-8ecf-4df1cd94d2aa",
+      "126de7ec-691d-4bc2-b02c-34041403dbc9",
+      "53a0c186-4aed-4af3-ade7-20537e5d5e13"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Programming (Python)",
+    "professorsCount": 3,
+    "professorIds": [
+      "81821a06-c5d8-431a-a0c1-667745e81cf0",
+      "ef4ebd33-a5b6-4804-9689-35c1b3f4856b",
+      "1f6a8f57-2028-494b-b0ef-fe1a9734185b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Finance",
+    "professorsCount": 3,
+    "professorIds": [
+      "5556cca0-166a-45c1-9464-1614896cad81",
+      "c28b1f38-6520-4de1-b22e-19695fc55d94",
+      "90aa1d2e-2bf9-4cbe-bd4e-08e699fc6c67"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Product Management",
+    "professorsCount": 3,
+    "professorIds": [
+      "59f71a32-a9f5-4daf-83b7-68582037c7ae",
+      "5050c137-d32b-45c1-82f3-4bdc4f61dba1",
+      "4de221c5-f7c3-4d18-b28f-5a8bb87d9a4a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Higher Education Pedagogy",
+    "professorsCount": 3,
+    "professorIds": [
+      "d83b8acf-f1ad-47de-ade5-06b45e1a2d5c",
+      "a66a7343-633f-4838-bcb2-dfc18b497bf2",
+      "edf65906-cf2e-47ee-bd40-abd1f48cfdfe"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Game Development",
+    "professorsCount": 3,
+    "professorIds": [
+      "a74eddc7-1024-4eb8-9230-227a403296bc",
+      "56441602-62f3-43d5-974c-ae755cfd6266",
+      "62dc942d-a89b-4f90-9fa0-383ea0620a9b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced programming 1",
+    "professorsCount": 3,
+    "professorIds": [
+      "323d0226-2197-43fb-a6ae-7c1ad9b9802e",
+      "4ad1c2de-f6e8-4b62-ac25-ce92064977c7",
+      "10d82487-bf38-4e46-b014-68ab66fd9024"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Psychology of Management",
+    "professorsCount": 3,
+    "professorIds": [
+      "65820dda-e614-4d0a-a396-c4caac01e986",
+      "1bda7065-5c3f-45d5-8086-77c2c51ef52b",
+      "58198009-c8c4-456b-99b4-6a9f88f83cfd"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Sociology",
+    "professorsCount": 3,
+    "professorIds": [
+      "5801bfc1-2464-4d7e-8fc1-5af8263ef750",
+      "0b183377-ff80-4475-99b9-2d04ebcb6b84",
+      "prof-0500"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to embedded systems",
+    "professorsCount": 3,
+    "professorIds": [
+      "bf81caf7-6d9b-4d18-949b-25cb9e85e0b9",
+      "1013cec0-a0b0-4b6a-8dd0-be7e84a8a61c",
+      "d39cd6b8-8402-402b-8646-b291a218af66"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Programming 2",
+    "professorsCount": 3,
+    "professorIds": [
+      "4ad1c2de-f6e8-4b62-ac25-ce92064977c7",
+      "f76254e6-78a6-4e4e-9dad-77f1b81174cc",
+      "10d82487-bf38-4e46-b014-68ab66fd9024"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "3D Modelling",
+    "professorsCount": 3,
+    "professorIds": [
+      "f1d9d8e6-c0e9-4f67-851b-962fd4569263",
+      "0439f83a-c25e-490f-a2c5-d21e07f888e1",
+      "e623bc73-76a2-4735-baf5-be1470986938"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "3D Animation",
+    "professorsCount": 3,
+    "professorIds": [
+      "f1d9d8e6-c0e9-4f67-851b-962fd4569263",
+      "0439f83a-c25e-490f-a2c5-d21e07f888e1",
+      "e623bc73-76a2-4735-baf5-be1470986938"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced machine learning",
+    "professorsCount": 2,
+    "professorIds": [
+      "5622ac27-84c2-4470-83e7-9eac5f271b2a",
+      "d784ceb3-f80e-44b3-8297-bdb10cf9f2c9"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Artificial Intelligence in data analysis",
+    "professorsCount": 2,
+    "professorIds": [
+      "5622ac27-84c2-4470-83e7-9eac5f271b2a",
+      "d784ceb3-f80e-44b3-8297-bdb10cf9f2c9"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Financial Literacy",
+    "professorsCount": 2,
+    "professorIds": [
+      "843ddba0-f7ba-485a-9723-0e21ffbc903b",
+      "bbe5768a-30fc-44eb-b019-f34aefce6399"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Relationship Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "843ddba0-f7ba-485a-9723-0e21ffbc903b",
+      "f5760bad-dc78-4b28-a84d-4e308894d24e"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Programming for data analysis and databases",
+    "professorsCount": 2,
+    "professorIds": [
+      "34c5deaa-19f5-4897-b825-c007a588c9b9",
+      "af0bcf0b-deec-4698-b7f4-aa7499fed065"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Programming for AI",
+    "professorsCount": 2,
+    "professorIds": [
+      "34c5deaa-19f5-4897-b825-c007a588c9b9",
+      "603d9c85-960f-4226-a90b-60dc00c885d4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Agile and hybrid approaches to project management",
+    "professorsCount": 2,
+    "professorIds": [
+      "ebf607f3-e018-410c-9752-e9751cd6c359",
+      "627673e0-4337-40de-acab-74ad9d433690"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Administration",
+    "professorsCount": 2,
+    "professorIds": [
+      "e78e094b-76a2-4ace-bd86-a147246080bb",
+      "26df0ad7-8c39-4a00-8054-2fb67c9a264d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Optimization",
+    "professorsCount": 2,
+    "professorIds": [
+      "8c69b288-029b-4e20-b5a9-3bbb85ab3f97",
+      "7c531f38-ddc5-47dd-a65b-6b91b5a3c462"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics: Mechanics, Electrodynamics, Magnetism",
+    "professorsCount": 2,
+    "professorIds": [
+      "a8a5635f-9947-47d8-a6aa-0fd4e3ff711b",
+      "42b8d386-c3f0-406f-826e-28a154ff005c"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project cost management",
+    "professorsCount": 2,
+    "professorIds": [
+      "31177bb7-9b30-4254-9c3c-904dc518a32d",
+      "483f7697-fba9-4244-985a-db2c398cf4d4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Scientific research methods",
+    "professorsCount": 2,
+    "professorIds": [
+      "31177bb7-9b30-4254-9c3c-904dc518a32d",
+      "5477452a-9f2c-4cbb-a95d-95653c67749c"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for HR Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d",
+      "d0bab31d-331d-4532-aaa0-331046d2b283"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming (Python)",
+    "professorsCount": 2,
+    "professorIds": [
+      "8db91f7b-6637-4755-a219-f567f7cfe6e8",
+      "f3ad65d1-cc6c-431f-ba83-0eaf2e494f7e"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Statistics and Data Science 1 (Python)",
+    "professorsCount": 2,
+    "professorIds": [
+      "c5fe961a-5aa0-4d89-84f1-b80713c1d05a",
+      "1657a6dd-3bdb-4c87-97c8-fdd59bb02a85"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Electrical Machines",
+    "professorsCount": 2,
+    "professorIds": [
+      "91d1a59d-5941-4176-8ecf-4df1cd94d2aa",
+      "230df65b-9acb-4869-bc30-25e4723e589b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Analog Electronics",
+    "professorsCount": 2,
+    "professorIds": [
+      "91d1a59d-5941-4176-8ecf-4df1cd94d2aa",
+      "03edf710-bd76-4564-9ed1-7cc1538e0044"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Power Electronics",
+    "professorsCount": 2,
+    "professorIds": [
+      "91d1a59d-5941-4176-8ecf-4df1cd94d2aa",
+      "230df65b-9acb-4869-bc30-25e4723e589b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Technology & Innovation Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "21e63795-d726-41fa-9323-d4209f4003bd",
+      "bbe5768a-30fc-44eb-b019-f34aefce6399"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Industrial Safety",
+    "professorsCount": 2,
+    "professorIds": [
+      "acd4ce48-ba4a-4998-a2c7-cf107121cebd",
+      "ab3eea9e-c044-4123-b864-8e94dd0379d0"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Management in information security",
+    "professorsCount": 2,
+    "professorIds": [
+      "0aef18a5-c919-47e0-841c-916b6f2d03a8",
+      "5050c137-d32b-45c1-82f3-4bdc4f61dba1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Storage Systems",
+    "professorsCount": 2,
+    "professorIds": [
+      "81821a06-c5d8-431a-a0c1-667745e81cf0",
+      "1f934813-1ece-4b29-8d31-65e4ba1332a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Electrodynamics",
+    "professorsCount": 2,
+    "professorIds": [
+      "4b5bf787-3a69-488f-8b8d-8ee7737d1171",
+      "6239127c-6bc9-4f4a-a385-91e070ea0244"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics",
+    "professorsCount": 2,
+    "professorIds": [
+      "4b5bf787-3a69-488f-8b8d-8ee7737d1171",
+      "6239127c-6bc9-4f4a-a385-91e070ea0244"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Big Data Methods and Tools",
+    "professorsCount": 2,
+    "professorIds": [
+      "c738caf5-dfdc-4a4c-be46-4d8a33b4f6ed",
+      "afc516a8-c1de-4d1f-9509-3231b527efcd"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Finance Decisions",
+    "professorsCount": 2,
+    "professorIds": [
+      "59f71a32-a9f5-4daf-83b7-68582037c7ae",
+      "bbe5768a-30fc-44eb-b019-f34aefce6399"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Statistical Analysis",
+    "professorsCount": 2,
+    "professorIds": [
+      "4ff4ad1d-2d34-40da-9a53-26d3dcd4d8df",
+      "dba8b7ec-8adf-4a49-a860-a09a05530760"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming (C++)",
+    "professorsCount": 2,
+    "professorIds": [
+      "f3ad65d1-cc6c-431f-ba83-0eaf2e494f7e",
+      "prof-0562"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project Stakeholder Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "d68e0d86-8d7e-4c55-bc1c-56b38ade4de1",
+      "3a8e347d-6968-489f-8fca-f6454e017193"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Methods of sustainable project management",
+    "professorsCount": 2,
+    "professorIds": [
+      "d68e0d86-8d7e-4c55-bc1c-56b38ade4de1",
+      "6a21a9b3-4e11-4e1e-b6ad-d6ed6d73b651"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Assembly programming",
+    "professorsCount": 2,
+    "professorIds": [
+      "5e4baac8-95ae-4c5e-b953-cc50cd842937",
+      "prof-0549"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Program and Project Portfolio Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "366dd969-a2e8-49f5-b6aa-bdbd6bb89e05",
+      "be8297c3-20f2-4458-826f-4ce0909a50d6"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Signal Processing",
+    "professorsCount": 2,
+    "professorIds": [
+      "4d6c10f4-2a01-4325-97bb-be6257b3ae2d",
+      "a1edce1c-8391-48f7-ae59-5f5ca78fc824"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Photo Journalism and Basics of Design",
+    "professorsCount": 2,
+    "professorIds": [
+      "f140bd39-757f-42c1-9313-de1a249be82f",
+      "9c7d0a1a-35b5-40b7-91ab-5f72ddd51b7f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Chip Fabrication",
+    "professorsCount": 2,
+    "professorIds": [
+      "a5b7496b-4e52-4b02-862c-ed7436c8c9da",
+      "ab7a19cd-2780-4cd7-9ebe-07aa20cc36b1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "History and Philosophy of Science",
+    "professorsCount": 2,
+    "professorIds": [
+      "3647721b-b16b-456c-87b0-b3373394bc62",
+      "469ef430-0355-40d5-9d98-ed9dd5ad3dd4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Governance, Risk and Compliance",
+    "professorsCount": 2,
+    "professorIds": [
+      "d9dc46b7-474e-4a03-ad37-7448ec11a647",
+      "prof-0545"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Signals and Systems",
+    "professorsCount": 2,
+    "professorIds": [
+      "a1edce1c-8391-48f7-ae59-5f5ca78fc824",
+      "42b8d386-c3f0-406f-826e-28a154ff005c"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computational Linear Algebra and Iterative methods",
+    "professorsCount": 2,
+    "professorIds": [
+      "01f7f1af-1e22-4df9-a41a-7cfcfb01ccde",
+      "a99e94b6-16dd-4264-b6c5-4546b53bc2d8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Methods and tools for data analysis",
+    "professorsCount": 2,
+    "professorIds": [
+      "603d9c85-960f-4226-a90b-60dc00c885d4",
+      "3455bc60-bf83-4297-8159-20b90567cabc"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Computer Networks Security",
+    "professorsCount": 2,
+    "professorIds": [
+      "09df4b4c-0ad3-46b9-a1a2-21d82fe11cd6",
+      "b6cc07e9-ac57-4bd7-b3af-2af82485dd1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Journalism",
+    "professorsCount": 2,
+    "professorIds": [
+      "e8c5a972-8f36-4487-ad80-565618c77daf",
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "IT Project Management",
+    "professorsCount": 2,
+    "professorIds": [
+      "5fe2e57c-e25e-42c2-907a-9cac63a91d6b",
+      "5050c137-d32b-45c1-82f3-4bdc4f61dba1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Fundamentals of Digital Public Administration",
+    "professorsCount": 2,
+    "professorIds": [
+      "5fe2e57c-e25e-42c2-907a-9cac63a91d6b",
+      "prof-0545"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Functional programming",
+    "professorsCount": 2,
+    "professorIds": [
+      "fed12a63-fa45-466e-896d-a3a8357b1116",
+      "1f6a8f57-2028-494b-b0ef-fe1a9734185b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Data Journalism",
+    "professorsCount": 2,
+    "professorIds": [
+      "30ac3497-d599-49f4-8979-667718590360",
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mathematical Methods for Engineers",
+    "professorsCount": 2,
+    "professorIds": [
+      "63f4c0c2-fc06-4a9c-9034-fb0a43bb62d9",
+      "prof-0571"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "News Writing & Fact Checking",
+    "professorsCount": 2,
+    "professorIds": [
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da",
+      "e2da88eb-544e-46aa-8c31-bc80cc5897db"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "C++ Programming",
+    "professorsCount": 2,
+    "professorIds": [
+      "a8b0fb75-881d-46e9-b701-9ae87c990413",
+      "03edf710-bd76-4564-9ed1-7cc1538e0044"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to SRE",
+    "professorsCount": 2,
+    "professorIds": [
+      "prof-0497",
+      "prof-0546"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI image processing",
+    "professorsCount": 1,
+    "professorIds": [
+      "eb44ea23-5b17-4b07-a545-0c970b7da69c"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Fault tolerance and reliability",
+    "professorsCount": 1,
+    "professorIds": [
+      "855cd036-dcfc-4262-a310-34aab3bb9f11"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Data Science and Machine Learning",
+    "professorsCount": 1,
+    "professorIds": [
+      "5622ac27-84c2-4470-83e7-9eac5f271b2a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Audio Electronics & Sound Design",
+    "professorsCount": 1,
+    "professorIds": [
+      "ecc8c3ac-3876-4ead-bb64-fbce29a5ac5a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Basics of Sound Recording and Editing for Podcasting",
+    "professorsCount": 1,
+    "professorIds": [
+      "ecc8c3ac-3876-4ead-bb64-fbce29a5ac5a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Heterogeneous Parallelization",
+    "professorsCount": 1,
+    "professorIds": [
+      "0acece5b-fa50-4ed1-9f80-d4a623125f15"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Applied Software Development Project",
+    "professorsCount": 1,
+    "professorIds": [
+      "a9a1ccd8-5a5f-4d8b-bfcf-f7f85c6e1624"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Control Systems",
+    "professorsCount": 1,
+    "professorIds": [
+      "b0efb153-7a24-42ff-9fbe-27e16c95231a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Ordinary Differential Equations",
+    "professorsCount": 1,
+    "professorIds": [
+      "8c7425bb-2629-489b-9920-b74b4c6f01ef"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mathematical fundamentals of AI",
+    "professorsCount": 1,
+    "professorIds": [
+      "2b08c3a7-672d-44b3-b301-9ef7217dc513"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Marketing Decisions",
+    "professorsCount": 1,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Logistics and Supply Chains",
+    "professorsCount": 1,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Enterprise IT Architecture",
+    "professorsCount": 1,
+    "professorIds": [
+      "39ca8b19-94b9-419e-8ace-c9ee0529fb1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Generative Algorithms",
+    "professorsCount": 1,
+    "professorIds": [
+      "8b2567e0-2d4a-4427-a2e1-4bd94d919815"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Theory of Artificial Intelligence and Computational Intelligent Systems",
+    "professorsCount": 1,
+    "professorIds": [
+      "af90a579-f5b8-4ae9-a339-cc4af048db68"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Logic in Computer Science",
+    "professorsCount": 1,
+    "professorIds": [
+      "0b772268-0c49-495d-9035-797d420b624a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Public Policy and e-Government",
+    "professorsCount": 1,
+    "professorIds": [
+      "0aef18a5-c919-47e0-841c-916b6f2d03a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Quality of public services",
+    "professorsCount": 1,
+    "professorIds": [
+      "0aef18a5-c919-47e0-841c-916b6f2d03a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Innovation in the public sector",
+    "professorsCount": 1,
+    "professorIds": [
+      "0aef18a5-c919-47e0-841c-916b6f2d03a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foundation of Screenwriting",
+    "professorsCount": 1,
+    "professorIds": [
+      "fd05a341-c59a-4686-b6fb-7f6de267ee77"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Producing",
+    "professorsCount": 1,
+    "professorIds": [
+      "fd05a341-c59a-4686-b6fb-7f6de267ee77"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Systems Analysis and Design",
+    "professorsCount": 1,
+    "professorIds": [
+      "088b80a7-a9b4-421d-9712-e514674bb848"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project Risk Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "f5760bad-dc78-4b28-a84d-4e308894d24e"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Penetration testing",
+    "professorsCount": 1,
+    "professorIds": [
+      "124b0ee4-7fc6-4412-8287-8fe54a00e4ce"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business process analysis",
+    "professorsCount": 1,
+    "professorIds": [
+      "59f71a32-a9f5-4daf-83b7-68582037c7ae"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project management",
+    "professorsCount": 1,
+    "professorIds": [
+      "59f71a32-a9f5-4daf-83b7-68582037c7ae"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Machine Learning",
+    "professorsCount": 1,
+    "professorIds": [
+      "f249b682-1967-4fb7-9ade-a736354b9d3f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Sustainable Development and Media Technology",
+    "professorsCount": 1,
+    "professorIds": [
+      "beef88ee-d754-4294-9d42-0d7aa2e6aafc"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced screenwriting for media projects",
+    "professorsCount": 1,
+    "professorIds": [
+      "beef88ee-d754-4294-9d42-0d7aa2e6aafc"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Management of processes and risks in media",
+    "professorsCount": 1,
+    "professorIds": [
+      "beef88ee-d754-4294-9d42-0d7aa2e6aafc"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Artificial Intelligence in Media",
+    "professorsCount": 1,
+    "professorIds": [
+      "beef88ee-d754-4294-9d42-0d7aa2e6aafc"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computational Geometry",
+    "professorsCount": 1,
+    "professorIds": [
+      "addc380c-a17a-4e2c-9420-c4200f8a56eb"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Stochastic Processes",
+    "professorsCount": 1,
+    "professorIds": [
+      "addc380c-a17a-4e2c-9420-c4200f8a56eb"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics Inferred Neural Networks",
+    "professorsCount": 1,
+    "professorIds": [
+      "f6f4790f-781b-44a8-bde7-45009a64bfe3"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Digital Twins",
+    "professorsCount": 1,
+    "professorIds": [
+      "9c3016fe-e5a3-4024-b8a4-920f752a12b4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mastering Design Thinking",
+    "professorsCount": 1,
+    "professorIds": [
+      "e22f33ff-f115-456b-81a3-06f8785a175f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Systems and process modeling tools",
+    "professorsCount": 1,
+    "professorIds": [
+      "e4930dea-3594-443e-aec7-4f2b0aed6c3e"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Sensors for IoT",
+    "professorsCount": 1,
+    "professorIds": [
+      "92e02288-00dd-4bd2-b234-ba74fd8864a0"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Sensors and Actuators",
+    "professorsCount": 1,
+    "professorIds": [
+      "92e02288-00dd-4bd2-b234-ba74fd8864a0"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Information Visualization",
+    "professorsCount": 1,
+    "professorIds": [
+      "c7c1cebb-da17-4566-997c-f35b49839eb1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Graphics and Interaction",
+    "professorsCount": 1,
+    "professorIds": [
+      "c7c1cebb-da17-4566-997c-f35b49839eb1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Media, Technology & Culture",
+    "professorsCount": 1,
+    "professorIds": [
+      "c7c1cebb-da17-4566-997c-f35b49839eb1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Service model in project management",
+    "professorsCount": 1,
+    "professorIds": [
+      "d68e0d86-8d7e-4c55-bc1c-56b38ade4de1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Human Resource Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "d68e0d86-8d7e-4c55-bc1c-56b38ade4de1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced databases",
+    "professorsCount": 1,
+    "professorIds": [
+      "f7097e33-853f-479f-a85a-3f7f891b9630"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Marketing for Entrepreneurship",
+    "professorsCount": 1,
+    "professorIds": [
+      "7c3b476b-84c8-4fd2-8d03-81d6a775bc8a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Model & Intellectual Property",
+    "professorsCount": 1,
+    "professorIds": [
+      "7c3b476b-84c8-4fd2-8d03-81d6a775bc8a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Case study on data Analytics",
+    "professorsCount": 1,
+    "professorIds": [
+      "ceca3d82-9400-4bbe-b28f-d2b9e615e72b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Machine learning and artificial intelligence",
+    "professorsCount": 1,
+    "professorIds": [
+      "ceca3d82-9400-4bbe-b28f-d2b9e615e72b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Public Administration",
+    "professorsCount": 1,
+    "professorIds": [
+      "247773b2-c903-45b0-9974-6f47143e0c08"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computer Networks Security",
+    "professorsCount": 1,
+    "professorIds": [
+      "3c3691ee-e44d-4de9-9ee3-0036ccbea78a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Smart Security",
+    "professorsCount": 1,
+    "professorIds": [
+      "f2a91e4c-9c5f-4fda-8e4d-0ff61a6e1d75"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Verbal Communication Skills",
+    "professorsCount": 1,
+    "professorIds": [
+      "f140bd39-757f-42c1-9313-de1a249be82f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Foundations of Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "f140bd39-757f-42c1-9313-de1a249be82f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Image Analysis and Computer Vision",
+    "professorsCount": 1,
+    "professorIds": [
+      "ea2ffc45-9a8a-45b5-b60f-a8aa4fbe03d9"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Electrical Measurements and Instrumentation",
+    "professorsCount": 1,
+    "professorIds": [
+      "fd162ff7-a09d-40f7-beaa-196adb12b1a2"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Graph Theory and Networks",
+    "professorsCount": 1,
+    "professorIds": [
+      "544336d7-71f4-4d4a-8767-8dbca53a6957"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Making decisions based on data",
+    "professorsCount": 1,
+    "professorIds": [
+      "68ff675e-b33b-4744-b786-9e799dabd721"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Semiconductor Devices",
+    "professorsCount": 1,
+    "professorIds": [
+      "b587b9df-be1d-430a-8a4a-326a5ffad0cb"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business planning of innovative and investment projects (Business simulation)",
+    "professorsCount": 1,
+    "professorIds": [
+      "3a8ff646-fbe0-4ec6-942b-df5bc3b52367"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Social Innovation and Digital Transformation of Society",
+    "professorsCount": 1,
+    "professorIds": [
+      "d9dc46b7-474e-4a03-ad37-7448ec11a647"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Software Architecture",
+    "professorsCount": 1,
+    "professorIds": [
+      "c9120340-d4d0-42bc-aaf7-a668e04ecaae"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Programming C#",
+    "professorsCount": 1,
+    "professorIds": [
+      "4a1bd27b-f461-4579-a325-ff5b0c50202d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project Management Context and Processes",
+    "professorsCount": 1,
+    "professorIds": [
+      "be8297c3-20f2-4458-826f-4ce0909a50d6"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Computer Graphics Fundamentals",
+    "professorsCount": 1,
+    "professorIds": [
+      "1657a6dd-3bdb-4c87-97c8-fdd59bb02a85"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Physics: Classical and Fluid mechanics",
+    "professorsCount": 1,
+    "professorIds": [
+      "42b8d386-c3f0-406f-826e-28a154ff005c"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Entrepreneurship",
+    "professorsCount": 1,
+    "professorIds": [
+      "0b27b6e8-6000-4f93-820c-32a85b97f5a2"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Optimization Theory",
+    "professorsCount": 1,
+    "professorIds": [
+      "7c531f38-ddc5-47dd-a65b-6b91b5a3c462"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Presentation, Communication & Negotiation",
+    "professorsCount": 1,
+    "professorIds": [
+      "2d26c361-2111-42d0-b4b9-bb9355209691"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Accounting & Corporate Reporting Analysis",
+    "professorsCount": 1,
+    "professorIds": [
+      "be9f2590-b8cd-4455-b088-db3e30447846"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Data Analytics and Visualization",
+    "professorsCount": 1,
+    "professorIds": [
+      "be9f2590-b8cd-4455-b088-db3e30447846"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Accounting & Financial Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "be9f2590-b8cd-4455-b088-db3e30447846"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Accounting Decisions",
+    "professorsCount": 1,
+    "professorIds": [
+      "be9f2590-b8cd-4455-b088-db3e30447846"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Models and methods in project management",
+    "professorsCount": 1,
+    "professorIds": [
+      "7da20b50-ff72-4774-ae7d-6619d6821b66"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Agile project management practices",
+    "professorsCount": 1,
+    "professorIds": [
+      "7da20b50-ff72-4774-ae7d-6619d6821b66"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Computer Networking",
+    "professorsCount": 1,
+    "professorIds": [
+      "09df4b4c-0ad3-46b9-a1a2-21d82fe11cd6"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Digital Arts Show",
+    "professorsCount": 1,
+    "professorIds": [
+      "e8c5a972-8f36-4487-ad80-565618c77daf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Cinematography & Digital Editing",
+    "professorsCount": 1,
+    "professorIds": [
+      "e8c5a972-8f36-4487-ad80-565618c77daf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Cinematography and Video editing",
+    "professorsCount": 1,
+    "professorIds": [
+      "e8c5a972-8f36-4487-ad80-565618c77daf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Business Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "69640ed5-ef13-4ee6-affd-cdc1c27debe1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "International Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "69640ed5-ef13-4ee6-affd-cdc1c27debe1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Journalistic Writing in Kazakh 1",
+    "professorsCount": 1,
+    "professorIds": [
+      "69640ed5-ef13-4ee6-affd-cdc1c27debe1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Fundamentals of Storytelling: Writing and Technology for Journalists",
+    "professorsCount": 1,
+    "professorIds": [
+      "69640ed5-ef13-4ee6-affd-cdc1c27debe1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Media Law and Ethics",
+    "professorsCount": 1,
+    "professorIds": [
+      "69640ed5-ef13-4ee6-affd-cdc1c27debe1"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Secure Software Architecture and Design",
+    "professorsCount": 1,
+    "professorIds": [
+      "572282a4-4ccd-4e1f-93c3-9161607ffebe"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Conflict Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "5fe2e57c-e25e-42c2-907a-9cac63a91d6b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Visual Arts",
+    "professorsCount": 1,
+    "professorIds": [
+      "d313486d-8920-4464-9cca-583b4646e178"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Formal methods",
+    "professorsCount": 1,
+    "professorIds": [
+      "0750ee27-9135-43e8-bcfa-c31832baa154"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Innovation and Research Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "dba97ba5-41af-484f-b3d0-e91d2d26eb9d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mathematics for Computational Science",
+    "professorsCount": 1,
+    "professorIds": [
+      "2e88b890-7117-4b09-9e8b-6385b142b7a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mathematics for data science",
+    "professorsCount": 1,
+    "professorIds": [
+      "2e88b890-7117-4b09-9e8b-6385b142b7a8"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Operations Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "bdb7a154-ac19-4ae9-b37d-24052bc5c0ea"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Probability and Statistics for Media and DJ",
+    "professorsCount": 1,
+    "professorIds": [
+      "bdb7a154-ac19-4ae9-b37d-24052bc5c0ea"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Image Processing",
+    "professorsCount": 1,
+    "professorIds": [
+      "ea84133e-edc9-40f5-b951-be90e1182ecf"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Quality Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "5f09f026-c81c-462e-8c7d-6ae070803e10"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Game Dev II on 3D",
+    "professorsCount": 1,
+    "professorIds": [
+      "62dc942d-a89b-4f90-9fa0-383ea0620a9b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Game Dev I on 2D",
+    "professorsCount": 1,
+    "professorIds": [
+      "62dc942d-a89b-4f90-9fa0-383ea0620a9b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Data processing and understanding",
+    "professorsCount": 1,
+    "professorIds": [
+      "b5733638-f1bb-45a1-8a19-6737317b994b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Case study in computational sciences",
+    "professorsCount": 1,
+    "professorIds": [
+      "309db6fc-d0f9-4147-8910-9861f9b16b2d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Numerical Methods for Differential Equations",
+    "professorsCount": 1,
+    "professorIds": [
+      "309db6fc-d0f9-4147-8910-9861f9b16b2d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Numerical methods and computer modeling",
+    "professorsCount": 1,
+    "professorIds": [
+      "309db6fc-d0f9-4147-8910-9861f9b16b2d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Change management",
+    "professorsCount": 1,
+    "professorIds": [
+      "4de221c5-f7c3-4d18-b28f-5a8bb87d9a4a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Public Policy Analysis and Evaluation",
+    "professorsCount": 1,
+    "professorIds": [
+      "4de221c5-f7c3-4d18-b28f-5a8bb87d9a4a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Journalistic Writing in Russian 1",
+    "professorsCount": 1,
+    "professorIds": [
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "History of Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Information and Digital Literacy",
+    "professorsCount": 1,
+    "professorIds": [
+      "77c89396-c9b8-45b3-b2c5-a3c5a77f08da"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Learning Algorithms: from Basics to Deep Learning",
+    "professorsCount": 1,
+    "professorIds": [
+      "b3da89fc-71db-4011-b257-de889fb6033b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Database Management Systems",
+    "professorsCount": 1,
+    "professorIds": [
+      "b6cc07e9-ac57-4bd7-b3af-2af82485dd1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI-assisted Soft Development",
+    "professorsCount": 1,
+    "professorIds": [
+      "b6cc07e9-ac57-4bd7-b3af-2af82485dd1d"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Statistics and Data Analysis",
+    "professorsCount": 1,
+    "professorIds": [
+      "74ecf0eb-c70a-4731-9f1d-27ada0a53c02"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mathematics for AI",
+    "professorsCount": 1,
+    "professorIds": [
+      "888e8626-8ee4-4c1d-a09a-ddeec79f3777"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Quantitative Methods for AI Business",
+    "professorsCount": 1,
+    "professorIds": [
+      "17c0d83f-bee8-4b49-827b-0c9116f24057"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Reinforcement learning",
+    "professorsCount": 1,
+    "professorIds": [
+      "f0e58425-946b-47c2-a84d-60e2f2ea6b52"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Introduction to Machine learning and Artificial Intelligence",
+    "professorsCount": 1,
+    "professorIds": [
+      "f0e58425-946b-47c2-a84d-60e2f2ea6b52"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Partial Differential Equations",
+    "professorsCount": 1,
+    "professorIds": [
+      "0ec0bcd4-833a-4621-9a88-e31a00ac470a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Ethics and Social Aspects of Artificial Intelligence",
+    "professorsCount": 1,
+    "professorIds": [
+      "5f9eb1aa-e0f1-4341-aca7-7ad3a8faffde"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "C Programming",
+    "professorsCount": 1,
+    "professorIds": [
+      "a8b0fb75-881d-46e9-b701-9ae87c990413"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Methods for developing secure code",
+    "professorsCount": 1,
+    "professorIds": [
+      "712d02ee-2669-45e9-b63c-cfcd3a173906"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Mobile Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "9c7d0a1a-35b5-40b7-91ab-5f72ddd51b7f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "NLP, Generative AI in Business",
+    "professorsCount": 1,
+    "professorIds": [
+      "667c9c34-b661-4eb5-b3d7-93a276dccd14"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Methods of Artificial Intelligence",
+    "professorsCount": 1,
+    "professorIds": [
+      "667c9c34-b661-4eb5-b3d7-93a276dccd14"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Data Visualization for Journalism",
+    "professorsCount": 1,
+    "professorIds": [
+      "667c9c34-b661-4eb5-b3d7-93a276dccd14"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Medicine and Healthcare",
+    "professorsCount": 1,
+    "professorIds": [
+      "667c9c34-b661-4eb5-b3d7-93a276dccd14"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Information Retrieval and Data Mining",
+    "professorsCount": 1,
+    "professorIds": [
+      "60111f37-2d95-4142-a5b6-4bf30f248d1f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Artificial intelligence and machine learning",
+    "professorsCount": 1,
+    "professorIds": [
+      "60111f37-2d95-4142-a5b6-4bf30f248d1f"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Software Resilience and Risk Assessment",
+    "professorsCount": 1,
+    "professorIds": [
+      "a4ed48e9-e0d1-410c-b83d-94aa4cb4568a"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Parallelization of Algorithms",
+    "professorsCount": 1,
+    "professorIds": [
+      "ec608a8d-0c3f-4e66-b6fb-ff30faf0f9a4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Parallel Processing Practices",
+    "professorsCount": 1,
+    "professorIds": [
+      "ec608a8d-0c3f-4e66-b6fb-ff30faf0f9a4"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI for Production/Manufacturing",
+    "professorsCount": 1,
+    "professorIds": [
+      "b26c468c-5d95-4f4a-b2b5-ddc2034ba99b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "AI Business Fundamentals",
+    "professorsCount": 1,
+    "professorIds": [
+      "b26c468c-5d95-4f4a-b2b5-ddc2034ba99b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Machine Learning for Business",
+    "professorsCount": 1,
+    "professorIds": [
+      "b26c468c-5d95-4f4a-b2b5-ddc2034ba99b"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Swag and Drip of AITU",
+    "professorsCount": 1,
+    "professorIds": [
+      "prof-0535"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Management Information Systems",
+    "professorsCount": 1,
+    "professorIds": [
+      "prof-0541"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Advanced Software Quality Assurance",
+    "professorsCount": 1,
+    "professorIds": [
+      "prof-0541"
+    ],
+    "avgRating": 0.0
+  },
+  {
+    "name": "Project Management",
+    "professorsCount": 1,
+    "professorIds": [
+      "prof-0545"
+    ],
+    "avgRating": 0.0
+  }
+]
